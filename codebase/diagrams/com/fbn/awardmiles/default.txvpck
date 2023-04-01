@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxduwndfr1bn4g">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:view:::Vuobnmjdxdw42blqdd0f2">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="150,1,80,88"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxwcqsyu-fuk42m">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="61,93,80,64"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxdvjhgr-sabi95">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="29,1,80,65"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxwcrew1xecpna">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="268,88,80,64"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxwcmokq5ec9tb">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="268,1,80,64"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxw7e9tu952xw4">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="268,175,80,64"/>
+        </reference>
+    </view>
+</nodeSet>

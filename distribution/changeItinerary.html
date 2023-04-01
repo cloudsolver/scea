@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Change Itinerary</title>
+</head>
+<body>
+<h1 align="center"><tt><u>Change Itinerary<br>
+</u></tt></h1>
+<h2><u><tt><a name="Contents"></a>Contents</tt></u></h2>
+<ul>
+  <li><a href="#Overview"><tt>Overview<br>
+    </tt></a></li>
+  <li><a href="#Assumptions"><tt>Assumptions</tt></a></li>
+  <li><a href="#Design_Artifacts"><tt>Design Artifacts<br>
+    </tt></a></li>
+</ul>
+<tt><a href="index.html">FBN
+Home</a><br>
+<br>
+<font size="-1"><br>
+</font>
+</tt>
+<h2><tt><a name="Overview"></a><u>Overview:</u><br>
+</tt></h2>
+<span style="font-family: monospace;">The change itinerary use case
+allows the customer or agent to search for an itinerary and potentially
+change it.<br>
+<br>
+The change itinerary sequence is </span><span
+ style="font-family: monospace;"><span style="font-family: monospace;">broken
+up into three </span></span><span style="font-family: monospace;">diagram:<br>
+<br>
+<span style="font-weight: bold;">(A) List Itineraries:</span> Customer
+selects 'change itinerary' from menu -
+the system presents a list of itineraries.<br>
+<span style="font-weight: bold;">(B) Show Itinerary Details:</span>
+Customer selects the itinerary to change -
+the system returns the selected itinerary which includes each segment
+of the itinerary.<br>
+<span style="font-weight: bold;">(C) Remove Segment:</span> Customer
+selects the segment to change. The system
+deletes the segment and the Prepare Itinerary use case is executed.<br>
+</span><br>
+<a href="#Contents"><tt>Back
+to Top</tt></a><br>
+<br>
+<tt><u>
+</u></tt>
+<h2><tt><u><a name="Assumptions"></a>Assumptions:</u></tt></h2>
+<h3><tt>
+</tt></h3>
+<ul>
+  <li><span style="font-weight: normal; font-family: monospace;">User
+must be signed-on when the menu item for change itinerary is clicked. </span></li>
+  <li><span style="font-weight: normal; font-family: monospace;">Log-in
+use-case is executed if the user selects Change Itinerary from the
+main-menu if user is not signed on.</span></li>
+  <li><span style="font-weight: normal; font-family: monospace;">A paid
+itinerary cannot be changed.</span></li>
+</ul>
+<tt><a href="#Contents"><tt>Back
+to Top</tt></a><br>
+<br>
+</tt>
+<h2><tt><u><a name="Design_Artifacts"></a>Design Artifacts:</u></tt></h2>
+<span style="font-family: monospace; font-weight: bold;">Sequence
+Diagrams:</span><br>
+<ul>
+  <li><a
+ href="images/sequence/Change%20Itinerary%20-%20%28A%29%20List%20Itineraries.gif"><tt>(A)
+List Itineraries Sequence Diagram<br>
+    </tt></a></li>
+  <li><tt><a
+ href="images/sequence/Change%20Itinerary%20-%20%28B%29-%20Show%20Itinerary%20Details.gif">(B)
+Show Itinerary Details Sequence Diagram<br>
+    </a></tt></li>
+  <li><a
+ href="images/sequence/Change%20Itinerary%20-%20%28C%29%20-%20Remove%20Segment.gif"><tt>(C)
+Remove Segment Sequence Diagram</tt></a> </li>
+</ul>
+<span style="font-family: monospace; font-weight: bold;">Component
+Diagram:</span><br style="font-family: monospace;">
+<ul>
+  <li><span style="font-family: monospace;"><a
+ href="images/component/Itinerary.gif">Itinerary subsystem Component
+Diagram</a><br>
+    </span></li>
+</ul>
+<tt><br>
+<a href="#Contents"><tt>Back
+to Top</tt></a></tt>
+<h3><tt><br>
+</tt></h3>
+</body>
+</html>

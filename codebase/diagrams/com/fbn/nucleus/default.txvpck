@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxdrd97k-jomd57">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <reference referencedUin="design:view:::Vuobnmjdxxhni89-vhdqf8">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="10,10,80,64"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmje1jpki27-iraogv">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="199,1,80,99"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdza9n6g5efd0qa">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="90,93,90,109"/>
+        </reference>
+    </view>
+</nodeSet>

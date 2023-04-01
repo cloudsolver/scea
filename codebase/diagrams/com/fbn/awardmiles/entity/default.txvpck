@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxdvjhgr-sabi95">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;option.layout.recursive = false &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:node:::N12t93sdxdvjlkhxjz6zb">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,20,88,70"/>
+        </reference>
+    </view>
+    <node uin="N12t93sdxdvjlkhxjz6zb">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="MileageAccount"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdvjhgr-sabi95"/>
+        <property name="Alias" value="MileageAccount"/>
+        <node uin="L-ae2kl5dxew44aaw1t8bq">
+            <property name="$name" value="getAccountId"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="int"/>
+        </node>
+    </node>
+</nodeSet>

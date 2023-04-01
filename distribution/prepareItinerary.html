@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Prepare Itinerary</title>
+</head>
+<body>
+<h1 style="font-family: monospace;" align="center"><u>Prepare
+Itinerary<br>
+</u></h1>
+<u style="font-weight: bold; font-family: monospace;"><a name="Contents"></a>Contents</u>
+<ul style="font-family: monospace;">
+  <li><a href="#Overview">Overview<br>
+    </a></li>
+  <li><a href="#Assumptions">Assumptions</a></li>
+  <li><a href="#Design">Design Artifacts<br>
+    </a></li>
+</ul>
+<div style="font-family: monospace;" align="left"><a href="index.html">FBN
+Home</a>
+<br>
+</div>
+<h3 style="font-family: monospace;"><a name="Overview"></a><u>Overview:</u><br>
+</h3>
+<font style="font-family: monospace;">The prepare
+itinerary use case allows the customer to search and reserve a seat.
+Seats can be reserved for round-trip or a one-way flight. The prepare
+itinerary sequence is divided into 5 diagrams:<br>
+<br>
+</font>
+<div style="text-align: center;">
+<div style="text-align: left;"><font style="font-family: monospace;"><span
+ style="font-weight: bold;">(A)
+Search Flights :</span> Customer enters flight search criteria, system
+responds with list of departure &amp; return flights, customer selects
+flights, system responds with flights priced and alternative flights.</font><span
+ style="font-family: monospace;"></span><br>
+</div>
+<span style="font-family: monospace;"></span></div>
+<span style="font-family: monospace;"><span
+ style="font-style: italic; font-weight: bold;"><span
+ style="font-family: monospace;"></span></span></span><font
+ style="font-family: monospace;"><span style="font-weight: bold;"><br>
+</span><span style="font-weight: bold;">(B) Search Seats :</span><span
+ style="font-weight: bold;"> </span>Customer
+selects flights, system responds with
+available seats for the flight.<br>
+<span style="font-weight: bold;"><br>
+</span></font><span style="font-family: monospace;"><span
+ style="font-weight: bold;"><span style="font-family: monospace;"><span
+ style="font-weight: bold;"></span></span></span></span><font
+ style="font-family: monospace;"><span style="font-weight: bold;">(C)
+Confirm
+Itinerary :</span><span style="font-weight: bold;">
+</span>Customer selects seats, system reponds with
+priced itinerary, customer confirms itinerary, system sends the priced
+itinerary to pay for itinerary use case.<br>
+<span style="font-style: italic; font-weight: bold;"></span></font><span
+ style="font-family: monospace;"><span
+ style="font-style: italic; font-weight: bold;"><br>
+</span></span><font style="font-family: monospace;"><span
+ style="font-weight: bold;">(D) Confirm
+Itinerary Alt Flow 1(Customer not
+signed</span></font><span style="font-family: monospace;"><span
+ style="font-weight: bold;">):</span> Log-in use
+case
+is executed, Cusomter logs in with credentials, system responds with
+the itinerary confirmation window.<br>
+<span style="font-style: italic;"><span style="font-weight: bold;"><br>
+</span></span><span style="font-weight: bold;">(E)
+Conform Itinerary Alt Flow 2
+(Customer not a member):</span><span style="font-style: italic;"> </span>Create
+Profile use case is executed, user is signed on, system responds with
+the itinerary confirmation window.<br>
+<br>
+</span><br style="font-family: monospace;">
+<br style="font-family: monospace;">
+<font style="font-family: monospace;"><a href="#Contents">Back
+to Top</a></font><br style="font-family: monospace;">
+<u style="font-family: monospace;">
+</u>
+<h3 style="font-family: monospace;"><u><a name="Assumptions"></a>Assumptions:</u></h3>
+<h3 style="font-family: monospace;">
+</h3>
+<ul>
+  <li><span style="font-family: monospace;">Customer cannot confirm the
+itinerary unless the customer is signed in.</span></li>
+  <li><span style="font-family: monospace;">If an anonymous user
+attempts to confirm the itinerary the log-in
+use-case is executed and the itinerary confirmation screen is displayed
+again: the customer will have to again confirm the itinerary.</span></li>
+  <li><span style="font-family: monospace;">The create profile use-case
+is executed after the log-in use case is
+executed, typically the log-in screen will also have a register user
+option.</span></li>
+</ul>
+<br style="font-family: monospace;">
+<br style="font-family: monospace;">
+<font style="font-family: monospace;"><a
+ href="prepareItinerary.html#Contents">Back
+to Top</a></font>
+<h3 style="font-family: monospace;"><br>
+<u style="font-family: monospace;"><a name="Design"></a>Design
+Artifacts:</u></h3>
+<span style="font-weight: bold; font-family: monospace;">Sequence
+Diagrams:</span><span
+ style="font-style: italic; font-family: monospace;"></span><br
+ style="font-family: monospace;">
+<ul style="font-family: monospace;">
+  <li><a
+ href="images/sequence/Prepare%20Itinerary%20%28A%29%20-%20Search%20Flights.gif">(A)
+Search Flights Sequence Diagram<br>
+    </a></li>
+  <li><a
+ href="images/sequence/Prepare%20Itinerary%20%28B%29%20-%20Search%20Seats.gif">(B)
+Search Seats Sequence Diagram<br>
+    </a></li>
+  <li><a
+ href="images/sequence/Prepare%20Itinerary%20%28C%29%20-%20Confirm%20Itinerary.gif">(C)
+Confirm Itinerary Sequence Diagram<br>
+    </a></li>
+  <li><a
+ href="images/sequence/Prepare%20Itinerary%20%28D%29%20-%20Confirm%20Itinerary%20Alt%20Flow%201.gif">(D)
+Confirm Itinerary Alt. flow 1 Sequence Diagram<br>
+    </a></li>
+  <li><a
+ href="images/sequence/Prepare%20Itinerary%20%28E%29%20-%20Confirm%20Itinerary%20Alt%20flow%202.gif">(E)
+Confirm Itinerary Alt Flow 2 Sequence Diagram</a> </li>
+</ul>
+<span style="font-style: italic; font-family: monospace;"></span>
+<ul style="font-family: monospace;">
+</ul>
+<span style="font-weight: bold; font-family: monospace;">Component
+Diagram:</span><span style="font-family: monospace;"> </span><br
+ style="font-family: monospace;">
+<ul style="font-family: monospace;">
+  <li><a href="images/component/Inventory.gif">Inventory subsystem
+component
+diagram</a> </li>
+  <li><a href="images/component/Itinerary.gif">Itinerary subsystem
+component
+diagram</a> </li>
+  <li><a href="images/component/Customer.gif">Customer subsystem
+component
+diagram</a></li>
+</ul>
+<br style="font-family: monospace;">
+<br>
+<ul style="font-family: monospace;">
+</ul>
+<h3 style="font-family: monospace;">
+</h3>
+<font style="font-family: monospace;"><a
+ href="prepareItinerary.html#Contents">Back
+to Top</a></font>
+</body>
+</html>

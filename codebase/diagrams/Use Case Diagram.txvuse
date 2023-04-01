@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V4mw90cdxcgbic0-5372uz">
+        <property name="$metaclass" value="Use Case Diagram"/>
+        <property name="$description" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:node:::Np2nrjrdxdfowld4koe89">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="352,322,112,20"/>
+        </reference>
+        <reference referencedUin="design:node:::Np2nrjrdxddy9zrtiw42v">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="83,520,100,20"/>
+        </reference>
+        <reference referencedUin="design:node:::Np2nrjrdxdfp49v-jlredn">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="69,37,100,20"/>
+        </reference>
+        <reference referencedUin="design:node:::Np2nrjrdxddxueo-603cjn">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="212,508,100,20"/>
+        </reference>
+        <reference referencedUin="design:node:::N11kb11dxdoy45i-b8l3lj">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="90,272,76,77"/>
+            <reference referencedUin="design:link:::L-fswq7ae0zjpv8fyr2qer:N11kb11dxdoy45i-b8l3lj">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="145,272"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="240,66"/>
+            </reference>
+            <reference referencedUin="design:link:::L-fswq7ae0zjpy00-w3i1x8:N11kb11dxdoy45i-b8l3lj">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="166,290"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="350,290"/>
+            </reference>
+            <reference referencedUin="design:link:::L-fswq7ae0zjphb55lklwe:N11kb11dxdoy45i-b8l3lj">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="128,349"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="128,520"/>
+            </reference>
+            <reference referencedUin="design:link:::L-fswq7adxdoy45i-3rn466:N11kb11dxdoy45i-b8l3lj">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="166,332"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="352,332"/>
+            </reference>
+            <reference referencedUin="design:link:::L-fswq7adxdoy45i-ou0ifz:N11kb11dxdoy45i-b8l3lj">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="153,349"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="253,508"/>
+            </reference>
+            <reference referencedUin="design:link:::L-fswq7adxdoy45i-iba1sj:N11kb11dxdoy45i-b8l3lj">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="128,272"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="128,56"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::Np2nrjrdxdfpfo7glq8at">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="350,280,112,20"/>
+        </reference>
+        <reference referencedUin="design:node:::Np2nrjrdxdforua8qab1f">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="197,47,100,20"/>
+        </reference>
+    </view>
+    <node uin="Np2nrjrdxddxueo-603cjn">
+        <property name="$metaclass" value="Use Case"/>
+        <property name="$name" value="Log In"/>
+    </node>
+    <node uin="Np2nrjrdxddy9zrtiw42v">
+        <property name="$metaclass" value="Use Case"/>
+        <property name="$name" value="Create Profile"/>
+    </node>
+    <node uin="Np2nrjrdxdforua8qab1f">
+        <property name="$metaclass" value="Use Case"/>
+        <property name="$name" value="Price Itinerary"/>
+    </node>
+    <node uin="Np2nrjrdxdfowld4koe89">
+        <property name="$metaclass" value="Use Case"/>
+        <property name="$name" value="Prepare Itinerary"/>
+    </node>
+    <node uin="Np2nrjrdxdfp49v-jlredn">
+        <property name="$metaclass" value="Use Case"/>
+        <property name="$name" value="Pay Itinerary"/>
+    </node>
+    <node uin="Np2nrjrdxdfpfo7glq8at">
+        <property name="$metaclass" value="Use Case"/>
+        <property name="$name" value="Change Itinerary"/>
+    </node>
+    <node uin="N11kb11dxdoy45i-b8l3lj">
+        <property name="$metaclass" value="Actor"/>
+        <property name="$name" value="Customer/Agent"/>
+        <link uin="L-fswq7adxdoy45i-iba1sj">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@stereotype" value="communicate"/>
+            <participant referencedUin="design:node:::N11kb11dxdoy45i-b8l3lj" role="Client"/>
+            <participant referencedUin="design:node:::Np2nrjrdxdfp49v-jlredn" role="Supplier"/>
+        </link>
+        <link uin="L-fswq7adxdoy45i-3rn466">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@stereotype" value="communicate"/>
+            <participant referencedUin="design:node:::N11kb11dxdoy45i-b8l3lj" role="Client"/>
+            <participant referencedUin="design:node:::Np2nrjrdxdfowld4koe89" role="Supplier"/>
+        </link>
+        <link uin="L-fswq7adxdoy45i-ou0ifz">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@stereotype" value="communicate"/>
+            <participant referencedUin="design:node:::N11kb11dxdoy45i-b8l3lj" role="Client"/>
+            <participant referencedUin="design:node:::Np2nrjrdxddxueo-603cjn" role="Supplier"/>
+        </link>
+        <link uin="L-fswq7ae0zjphb55lklwe">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@stereotype" value="communicate"/>
+            <participant referencedUin="design:node:::N11kb11dxdoy45i-b8l3lj" role="Client"/>
+            <participant referencedUin="design:node:::Np2nrjrdxddy9zrtiw42v" role="Supplier"/>
+        </link>
+        <link uin="L-fswq7ae0zjpv8fyr2qer">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@stereotype" value="communicate"/>
+            <participant referencedUin="design:node:::N11kb11dxdoy45i-b8l3lj" role="Client"/>
+            <participant referencedUin="design:node:::Np2nrjrdxdforua8qab1f" role="Supplier"/>
+        </link>
+        <link uin="L-fswq7ae0zjpy00-w3i1x8">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@stereotype" value="communicate"/>
+            <participant referencedUin="design:node:::N11kb11dxdoy45i-b8l3lj" role="Client"/>
+            <participant referencedUin="design:node:::Np2nrjrdxdfpfo7glq8at" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>

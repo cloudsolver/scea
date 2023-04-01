@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Price Itinerary</title>
+</head>
+<body>
+<h1 style="font-family: monospace;" align="center"><u>Price Itinerary<br>
+</u></h1>
+<h2><u style="font-family: monospace;"><a name="Contents"></a><span
+ style="font-weight: bold;">Contents</span></u></h2>
+<ul style="font-family: monospace;">
+  <li><a href="priceItinerary.html#Overview">Overview<br>
+    </a></li>
+  <li><a href="#Assumptions">Assumptions</a></li>
+  <li><a href="#Design">Design Artifacts</a></li>
+</ul>
+<font style="font-family: monospace;"><a href="index.html">FBN Home</a></font>
+<h2 style="font-family: monospace;"><a name="Overview"></a><u>Overview:</u><br>
+</h2>
+<span style="font-family: monospace;">The price itinerary use case
+calculates the cost of the selected itinerary by pricing each segment
+and adding the prices together. This use-case can only be executed from
+other use-cases. Therefore no controller is provided, a facade is
+provided that other subsystems may use to price a prepared itinerary.
+The sequence of pricing an itinerary is captured in one diagram.<br>
+<br>
+<br style="font-family: monospace;">
+</span><font style="font-family: monospace;"><a href="#Contents">Back
+to
+Top</a></font><br style="font-family: monospace;">
+<tt style="font-family: monospace;"><u>
+</u></tt>
+<h2 style="font-family: monospace;"><u><a name="Assumptions"></a>Assumptions:</u></h2>
+<h2 style="font-family: monospace;">
+</h2>
+<ul>
+  <li> <span style="font-weight: normal;"><span
+ style="font-family: monospace;">The system will not price an itinerary
+which has already been purchased.</span><br>
+    </span> </li>
+</ul>
+<br>
+<tt style="font-family: monospace;"><a href="#Contents">Back
+to
+Top</a></tt>
+<h2 style="font-family: monospace;"><br>
+<u><a name="Design"></a>Design Artifacts:</u></h2>
+<span style="font-family: monospace;">Sequence
+Diagram:</span><br style="font-family: monospace;">
+<ul>
+  <li><a href="images/sequence/Price%20Itinerary.gif"><span
+ style="font-family: monospace;">Price Itinerary sequence diagram</span></a></li>
+</ul>
+<br style="font-family: monospace;">
+<span style="font-family: monospace;">Component
+Diagram:</span><span style="font-family: monospace;"></span><br
+ style="font-family: monospace;">
+<ul>
+  <li><a href="images/component/Pricing.gif"><span
+ style="font-family: monospace;">Pricing
+subsystem component diagram</span></a></li>
+</ul>
+<span style="font-family: monospace;"><br>
+</span><span style="font-family: monospace;"><tt
+ style="font-family: monospace;"><a href="#Contents">Back
+to
+Top</a></tt> </span>
+</body>
+</html>

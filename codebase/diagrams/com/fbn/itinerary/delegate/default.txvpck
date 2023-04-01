@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdy67fz3q5l1nx">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="option.layout.recursive = false &#xA;"/>
+        <reference referencedUin="design:node:::N12t93sdy68vnxy-f6v50a">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,20,280,76"/>
+        </reference>
+    </view>
+    <node uin="N12t93sdy68vnxy-f6v50a">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchProcessorDelegate"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdy67fz3q5l1nx"/>
+        <node uin="L-ae2kl5dy68vxf9-qux0tx">
+            <property name="$name" value="search"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnTypeReferencedElement" value="design:node:::N12t93sdysvmi0l-yscjwe"/>
+            <property name="@mod__returnType" value="com.fbn.itinerary.dto.SearchResultDTO"/>
+            <node uin="L-b0f57fdy68wnac2757ic">
+                <property name="$name" value="criteria"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__typeReferencedElement" value="design:node:::N12t93sdxnn32chwp00r5"/>
+                <property name="@mod__type" value="com.fbn.itinerary.dto.SearchCriteriaDTO"/>
+            </node>
+        </node>
+        <node uin="N-ae2kl5dzbpiky5-qukmj3">
+            <property name="$name" value="searchAlternativeFlights"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="com.fbn.itinerary.dto.SearchResultDTO"/>
+            <property name="@mod__returnTypeReferencedElement" value="design:node:::N12t93sdysvmi0l-yscjwe"/>
+            <node uin="N-b0f57fdzbpiky5bn5c93">
+                <property name="$name" value="searchFlightCriteria"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__typeReferencedElement" value="design:node:::N12t93sdz4wjrjh-2fkng1"/>
+                <property name="@mod__type" value="com.fbn.itinerary.dto.FlightSearchCriteriaDTO"/>
+                <property name="@mod__final" value=""/>
+            </node>
+        </node>
+    </node>
+    <link uin="Lys2gw5dy7hhyca-exsnsd">
+        <property name="$metaclass" value="Dependency Link"/>
+        <participant referencedUin="design:view:::Vuobnmjdy67fz3q5l1nx" role="Client"/>
+        <participant referencedUin="design:node:::N12t93sdy5v6zdh-3wm8sf" role="Supplier"/>
+    </link>
+    <link uin="Lys2gw5dy7hi2191wws8n">
+        <property name="$metaclass" value="Dependency Link"/>
+        <participant referencedUin="design:view:::Vuobnmjdy67fz3q5l1nx" role="Client"/>
+        <participant referencedUin="design:view:::Vuobnmjdxw7fugb-uagfeo" role="Supplier"/>
+    </link>
+</nodeSet>

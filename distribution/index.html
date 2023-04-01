@@ -1,0 +1,629 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Fly By Night - Rohit Sood</title>
+  <meta content="Rohit" name="author">
+  <meta content="SCEA Certification" name="description">
+</head>
+<body>
+<h1 style="font-family: courier new,courier,monospace;" align="center"><b><u>FBN
+Home</u></b></h1>
+<span style="font-family: courier new,courier,monospace;">Name: Rohit
+Sood</span><br style="font-family: courier new,courier,monospace;">
+<span style="font-family: courier new,courier,monospace;">ID: <span
+ style="font-weight: bold;">SP7343294</span></span><br
+ style="font-family: courier new,courier,monospace;">
+<br style="font-family: courier new,courier,monospace;">
+<h3 style="font-family: courier new,courier,monospace;"><span
+ style="text-decoration: underline;"><a name="Table_Of_Contents"></a>Table
+Of Contents</span><br>
+</h3>
+<ul style="font-family: monospace;">
+  <li><a href="#Overview">Overview </a>- Architectural Overview of the
+system.<br>
+  </li>
+  <li><a href="#Assumptions">Assumptions &amp; Simplifications </a>-
+The assumptions made to
+design and architect.</li>
+  <li><a href="#Design_Goals">Design Goals</a> - The design goals of
+the Fly by Night application.</li>
+  <li><a href="#Application_Tiers">Application
+Tiers</a> - The tiers in
+the technology solution.</li>
+  <li><a href="#Design_Choices__Decisions">Design &amp; Technology
+Choices </a>- The design choices and important design decisions.</li>
+  <li><a href="#Design_Patterns_Used">Design Patterns Used</a> - A list
+of design patterns used.</li>
+  <li><a style="font-weight: bold;" href="#Application_Design">Design
+Artifacts</a><span style="font-weight: bold;"> </span>- All design
+documents for the Fly by
+Night application.</li>
+</ul>
+<br style="font-family: courier new,courier,monospace;">
+<h3 style="font-family: courier new,courier,monospace;"><a
+ name="Overview"></a><span
+ style="font-weight: bold; text-decoration: underline;">Overview</span></h3>
+<span style="font-family: monospace;"></span><span
+ style="font-family: monospace;"><span style="font-family: monospace;">
+</span></span>
+<p class="MsoNormal" style="font-family: monospace;">Fly-By-Night (FBN)
+is
+based on a n-tier J2EE based distributed enterprise application
+architecture.
+It is designed to satisfy all functional and non-functional
+requirements. <o:p></o:p></p>
+<p class="MsoNormal" style="font-family: monospace;"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal" style="font-family: monospace;">Trade-offs had to
+be
+made and QoS requirements had to be prioritized. Performance was
+prioritized over
+security for rich clients. Security was a priority over all - SSL was
+used for communication
+with external systems. Security was a priority for thin clients &#8211; all
+communication
+was encrypted with SSL between the browser and the web servers.
+Scalability, maintainability
+and extensibility were prioritized for the business logic tier. This
+resulted
+in the business tier having highly cohesive &amp; loosely coupled
+modules. <o:p></o:p></p>
+<p class="MsoNormal" style="font-family: monospace;"><br>
+The rich client was designed to be a Java Swing application which would
+directly communicate with the application server over RMI. SSL was not
+used for
+rich clients as the assumption was made that the Intranet will have
+firewall(s)
+protecting the application server from intrusion and the agents'
+systems will
+be able to interact without the performance burden of encryption.<o:p></o:p></p>
+<p class="MsoNormal" style="font-family: monospace;"><br>
+To further support scalability: business services (called facades &amp;
+processors in the system design documents) were implemented as SLSBs.
+Also
+Entity EJBs were used with container managed persistence and
+relationships.
+Asynchronous messaging was used in the payment system to further boost
+performance and scale - MDBs were used for this. Stateful beans were
+minimized
+and state maintenance was minimized on the business logic tier.<o:p></o:p></p>
+<p class="MsoNormal" style="font-family: monospace;"><br>
+To support maintainability and extensibility - the FBN architecture was
+created
+to be modular with loose coupling and high cohesion. The modules
+provide
+facades as entry points into the subsystem. Container managed
+transactions and
+entity beans were used to provide reliable transactions. The topology
+and J2EE
+server software vendor was required to support availability and
+manageability.</p>
+<span style="font-family: monospace;"><br>
+<span style="font-family: monospace;"></span><br
+ style="font-family: courier new,courier,monospace;">
+</span><br style="font-family: courier new,courier,monospace;">
+<font style="font-family: courier new,courier,monospace;" size="-1"><a
+ href="#Table_Of_Contents">Back to Top</a></font><br
+ style="font-family: courier new,courier,monospace;">
+<h3 style="font-family: courier new,courier,monospace;"><a
+ name="Assumptions"></a><span
+ style="font-weight: bold; text-decoration: underline;">Assumptions
+&amp; Simplifications<br>
+</span></h3>
+<span style="font-family: monospace;"><br>
+The following is a list of general business &amp; technical
+assumptions:</span><br style="font-family: monospace;">
+<span style="font-family: monospace;"></span><i
+ style="font-family: monospace;"><br>
+<br>
+<span style="text-decoration: underline;">Business Assumptions</span><br>
+</i>
+<ul style="font-family: monospace;">
+  <li>It is possible for an agent to act on the customer's behalf. <span
+ style="font-style: italic;">(Note: "Customer" and "Agent" are
+interchangeable in the diagrams.)</span><br>
+  </li>
+  <li>Seat availability is not guaranteed indefinitely i.e. no seat is
+guaranteed until it is paid for.<br>
+  </li>
+  <li>Domain model is extensible i.e. the architect can extend the
+domain model to establish the class diagram as long as no business
+functionality is lost.<br>
+  </li>
+  <li>The itinerary will be persisted at the earliest possible time
+even when the user has not signed in. It
+will be associated with the user if the user is signed in - otherwise
+it will time-out and removed. Also, the seats, when reserved, will be
+booked - but will time-out if the
+seat is not paid for.</li>
+  <li>FBN will not directly support data maintenance of flight
+inventory in the current scope because no use-cases were specified for
+that. The inventory subsystem will be designed for extensibility.<br>
+  </li>
+  <li>Rich clients will be used exclusively from the Intranet region by
+FBN Agents only.<span style="text-decoration: underline;"><span
+ style="font-style: italic;"></span></span></li>
+</ul>
+<span style="font-family: monospace; font-style: italic;">Note: More
+detailed
+assumptions are provided in the individual use-case design pages.</span><br>
+<pre style="text-decoration: underline; font-family: monospace;"><span
+ style="font-style: italic; font-family: monospace;"><br></span><i>Technical Assumptions</i></pre>
+<ul style="font-family: monospace;">
+  <li><span style="font-family: monospace;">The Award Miles System team
+will
+provide an XML-RPC interface to </span><span
+ style="font-family: monospace;">their system to support FBN's
+integration.</span></li>
+  <li><span style="font-family: monospace;"></span>An EJB container is
+selected that can be tuned for performance of
+CMP Entity Beans with CMR.</li>
+  <li>Rich client is deployed on the Intranet which is in the server
+protection domain and can
+access the EJB-tier over RMI.<br>
+  </li>
+  <li>Client container is installed on all PCs used by agents and
+delivery mechanism of FBN client code is automated.</li>
+  <li>Required
+well-known ports are available for rich clients to communicate over
+RMI.</li>
+  <li>The Intranet is considered secure therefore rich clients will not
+need to communicate over SSL - this will promote better performance.</li>
+  <li>The system will not detect the same user activity from multiple
+clients. More than one session can be opened per client or multiple
+across clients.<br>
+  </li>
+</ul>
+<span style="font-family: monospace;"><span
+ style="text-decoration: underline;"><span style="font-style: italic;"></span></span></span><br
+ style="font-family: monospace;">
+<span style="font-style: italic; font-family: monospace;"></span><span
+ style="font-family: monospace;"><span><span style="font-style: italic;">Note:
+For the purposes of effective
+communication - the current mileage system will be referred to as
+"Award
+Miles System".</span><br>
+<br>
+</span></span><font style="font-family: courier new,courier,monospace;"
+ size="-1"><a href="#Table_Of_Contents">Back
+to
+Top</a><br>
+</font><br style="font-family: courier new,courier,monospace;">
+<h3
+ style="text-decoration: underline; font-family: courier new,courier,monospace;"><a
+ name="Design_Goals"></a>Design Goals</h3>
+<i style="font-family: monospace;">The design goals are as follows:</i><br
+ style="font-family: monospace;">
+<ul style="font-family: courier new,courier,monospace;">
+  <li style="font-family: monospace;">Satisfy all functional and
+non-functional requirements.<br>
+  </li>
+  <li style="font-family: monospace;">Support multiple client types :
+web browsers and Java Swing
+clients.</li>
+  <li style="font-family: monospace;">Module designs must aim to
+support the open-closed principle, high cohesion and low coupling.<br>
+  </li>
+  <li style="font-family: monospace;">Use well-known design patterns
+whenever possible because they are proven, tested and also helps
+designers/developers productive quickly.<br>
+  </li>
+  <li style="font-family: monospace;">System must be
+database, client, hardware, and
+operating system agnostic.</li>
+  <li style="font-family: monospace;">System design must completely
+decouple presentation from business logic.</li>
+  <li style="font-family: monospace;">System design must promote
+separate developer roles based on
+application tiers.</li>
+  <li style="font-family: monospace;">Middleware will be implicit and
+transparent to the developer.</li>
+  <li style="font-family: monospace;">Limit clients to screen flow
+control and heuristic data validation only.</li>
+  <li style="font-family: monospace;">Do not expose entity object model
+to the client (encapsulate it within the business tier).<br>
+  </li>
+  <li style="font-family: monospace;">Only the EJB tier to provide
+business services.</li>
+  <li style="font-family: monospace;">Transactions must support ACID
+properties.</li>
+  <li style="font-family: monospace;">Make business services stateless
+to provide scalability.<br>
+  </li>
+  <li style="font-family: monospace;">Each type of client will have its
+own controller.</li>
+  <li style="font-family: monospace;">Clients must maintain their own
+contextual session information whenever possible.<br>
+  </li>
+  <li style="font-family: monospace;">Decouple all tiers such that the
+tiers should only connect with the next tier unidirectionally from
+client tier to EIS tier.</li>
+  <li style="font-family: monospace;">Separate the system into modules,
+compose each module with logical components.<br>
+  </li>
+  <li style="font-family: monospace;">Provide at least one well known
+entry-point into each subsystem via a facade.<br>
+  </li>
+  <li style="font-family: monospace;">Design to facilitate
+verifiability and traceability. (Also a process
+function).<br>
+  </li>
+</ul>
+<span style="font-family: monospace; font-style: italic;">The main goal
+is to satisfy all functional requirements followed by non-functional
+requirements (security, performance, scalability,
+extensibility, reliability, maintainability, manageability &amp;
+availability).</span><br
+ style="font-family: courier new,courier,monospace;">
+<br style="font-family: courier new,courier,monospace;">
+<font style="font-family: courier new,courier,monospace;" size="-1"><a
+ href="#Table_Of_Contents">Back
+to
+Top</a><br>
+<br>
+</font><span style="font-family: courier new,courier,monospace;"><font
+ size="-1" style="font-family: courier new,courier,monospace;"><br
+ style="font-family: courier new,courier,monospace;">
+</font>
+</span>
+<h3
+ style="text-decoration: underline; font-family: courier new,courier,monospace;"><a
+ name="Application_Tiers"></a>Application Tiers</h3>
+<br style="font-family: monospace;">
+<span style="font-family: monospace;">The following high-level tier
+diagrams are provided.
+Figure 1 depicts the general tiers within the application, figure 2
+depicts the
+J2EE specific tiers with a cross-tier shared module, figure 3 is more
+detailed which shows the tiers
+containing generic component types but not their inter dependencies,
+figure 4 is a complete detailed J2EE specific tier diagram which shows
+the tiers and
+inter dependencies of the tiers and their components.<br>
+<br style="font-family: monospace;">
+</span><span style="font-family: monospace;"></span><br
+ style="font-family: monospace;">
+<br style="font-family: monospace;">
+<span style="font-family: monospace;">Figure 1
+shows the general tiers of the FBN application architecture.</span><br
+ style="font-family: courier new,courier,monospace;">
+<br style="font-family: courier new,courier,monospace;">
+<img src="images/non-uml/Generic%20Tiers.gif" alt=""
+ style="width: 852px; height: 321px;"><br>
+<br style="font-family: monospace;">
+<div
+ style="font-family: courier new,courier,monospace; text-align: left;"><span
+ style="font-style: italic; font-weight: bold; font-family: monospace;">(Figure
+1)</span><br>
+</div>
+<br style="font-family: monospace;">
+<span style="font-family: monospace;"></span><span
+ style="font-family: monospace;"></span><br
+ style="font-family: monospace;">
+<ul style="font-family: monospace;">
+  <li>Client Tier - Consists of clients which can access the
+application.<br>
+  </li>
+  <li>Presentation Tier - This tier processes data for presentation
+which will be used
+by the client tier.<br>
+  </li>
+  <li>Business Logic Tier - The core business logic of the system
+resides in this tier.<br>
+  </li>
+  <li>EIS Tier - Consists of the datastores and other information
+systems.<br>
+  </li>
+</ul>
+<br>
+<br>
+<span style="font-family: monospace;">FBN will be implemented using
+J2EE technologies exclusively. Figure 2 shows the J2EE specific
+tiers of the FBN application architecture.</span><br>
+<br>
+<img style="width: 255px; height: 141px;" alt=""
+ src="images/non-uml/J2EE%20Tiers.gif"><br>
+<br>
+<span
+ style="font-family: monospace; font-style: italic; font-weight: bold;">(Figure
+2)<br>
+<br style="font-family: monospace;">
+</span>
+<br>
+<ul style="font-family: monospace;">
+  <li>Client Tier - Consists of a Web browser &amp; swing client. It is
+responsible for presenting the user interface, validating user input
+(heuristics only), communicating with the server, managing
+conversational state.</li>
+  <li>Nucleus - This is a shared supporting library which contains
+business agnostic utilities. It is available across all tiers.</li>
+  <li>Web Tier - Consists of JSP, Servlets, Tag libs, and business
+delegates. This tier is responsible for
+web-enabling business logic, generating dynamic content, data
+presentation, input synthesis, screen flow control, state maintenance
+&amp; providing an extensible point for other MIME types.<br>
+  </li>
+  <li>EJB Tier - Consists of Facades (SLSBs),Processors(local
+SLSBs),SFSB, Entity Beans, DAOs and DTOs. </li>
+  <li>EIS Tier - Consists of internal datastores and external
+information systems.<br>
+  </li>
+</ul>
+<span style="font-family: monospace;"></span>
+<span style="font-family: monospace;"><br>
+<br>
+<br>
+The J2EE components are in their respective tiers as shown in Figure 3.
+Interactions and dependencies between the tiers are not shown here. The
+Client Tier is divided into 2 client tiers namely the Thin Client tier
+and the Rich Client tier.<br>
+<br>
+<br>
+<img style="width: 674px; height: 365px;" alt=""
+ src="images/non-uml/J2EE%20Component%20Tiers.gif"><br>
+<span style="font-style: italic; font-weight: bold;">(Figure 3)</span><br>
+<br>
+</span><span style="font-family: monospace;"><br>
+</span>
+<ul>
+  <li><span style="font-family: monospace;">Thin client tier consists
+of a web browser.</span></li>
+  <li><span style="font-family: monospace;">Rich client tier consists
+of the swing front-end and business delegates that can communicate with
+the EJB tier bypassing the web-tier.<br>
+    </span></li>
+  <li><span style="font-family: monospace;">Web tier consists of
+Servlet Filters, Servlets, Tag libraries, JavaServer Pages, mapping
+files, and business delegates that can communicate with the EJB tier.</span></li>
+  <li><span style="font-family: monospace;">EJB tier consists of
+SFSB,SLSB, Entity Beans, DAOs and DTOs (shared). The core business
+logic is implemented here.<br>
+    </span></li>
+  <li><span style="font-family: monospace;">EIS tier consists of the
+FBN database and external services (which include TransMaster system
+and Award Miles system)</span></li>
+</ul>
+<span style="font-family: monospace;"><br>
+<br>
+<br>
+For
+a more detailed view:</span>
+<ul>
+  <li><span style="font-family: monospace;">See Figure 4 : <a
+ href="images/non-uml/FBN%20Tier%20Diagram.gif">FBN
+Detailed Tiers
+Diagram</a>.</span></li>
+</ul>
+<br style="font-family: courier new,courier,monospace;">
+<br style="font-family: courier new,courier,monospace;">
+<font size="-1" style="font-family: courier new,courier,monospace;"><a
+ href="#Table_Of_Contents">Back
+to
+Top</a></font><br style="font-family: courier new,courier,monospace;">
+<span style="font-family: courier new,courier,monospace;"><br>
+</span>
+<h3
+ style="text-decoration: underline; font-family: courier new,courier,monospace;"><a
+ name="Design_Choices__Decisions"></a>Design &amp; Technology Choices </h3>
+<i style="font-family: monospace;">The following
+design choices and decisions were made:</i><br
+ style="font-family: monospace;">
+<br style="font-family: monospace;">
+<ul style="font-family: monospace;">
+  <li>Java Swing was used to create the rich client application.</li>
+  <li>JavaServer Pages technology (Servlets, TagLibs etc) were used for
+the presentation tier for browser clients.<br>
+  </li>
+  <li>Entity EJBs - Container Managed Persistence, Container
+Managed Relationships were used to support the Entity object model and
+provide transparent persistence.<br>
+  </li>
+  <li>Message Driven EJBs &amp; Java Messaging Service were used to
+support asynchronous messaging.</li>
+  <li>Data Access Object pattern was used for custom queries that were
+deemed too "heavy" for Entity Beans.</li>
+  <li>Data Transfer Objects were used for accumulation of data from
+data
+access objects &amp; entity beans they are used for transfer data
+between the business
+&amp; client tiers. However as different clients need to represent data
+in different ways - the DTOs were not coupled with the view - instead
+each view has its own ValueBean - the command object maps (by using a
+helper) the DTO to the
+ValueBean of the specific client. This helps in decoupling clients from
+the transfer objects and provides flexibility in data presentation.<br>
+  </li>
+  <li>Business Delegates were used to invoke business process calls
+from
+the client tier. Each client tier had its own business delegate which
+knew how to connect and call business services.<br>
+  </li>
+  <li>Service Locator was used to locate &amp; get instances of EJBs.</li>
+  <li>Stateless Session Beans - were used as facades into each business
+segment (eg. payment).</li>
+  <li>Local Stateless Session Beans - are called processors in the
+system &amp; were often used to support the session facades. The
+processors acts upon entities, data access objects etc
+to perform
+business functions. They also invoke facades of other subsystems to
+complete business processing.</li>
+  <li>Value List Handlers were used for searches to provide for future
+extensibility and also to throttle or page the responses if required.</li>
+  <li>Container managed transactions are to be started by the subsystem
+facades (SLSBs).<br>
+  </li>
+</ul>
+<br>
+<br style="font-family: courier new,courier,monospace;">
+<font size="-1" style="font-family: courier new,courier,monospace;"><a
+ href="#Table_Of_Contents">Back
+to
+Top</a></font>
+<h3
+ style="text-decoration: underline; font-family: courier new,courier,monospace;"><a
+ name="Design_Patterns_Used"></a>Design Patterns Used</h3>
+<span style="font-family: monospace;">Several design patterns were used
+in the system , the significant patterns are listed below:</span><br>
+<br>
+<ul style="font-family: monospace;">
+  <li><span style="font-weight: bold;">Intercepting Filter</span> -
+This is used for security sign-in checks for every request of FBN, it
+will redirect to the sign-in screen if a user attempts to access
+resources which need authorization.<br>
+  </li>
+  <li><span style="font-weight: bold;">Front Controller</span> - Used
+to dispatch requests to appropriate helpers (commands) and redirect to
+views. The request dispatcher is encapsulated within the controller and
+managed via configuration files.<br>
+  </li>
+  <li><span style="font-weight: bold;">View Helper</span> - Translates
+the transfer object to the web JavaBeans
+(value beans) used for rendering the view.<br>
+  </li>
+  <li><span style="font-weight: bold;">Command (Helper)</span> - The
+Command pattern avatar of the J2EE Helper pattern was used. It provides
+support for the screen flows, and access the business services via the
+business delegates.<br>
+  </li>
+  <li style="font-weight: bold;">Business Delegate <span
+ style="font-weight: normal;">- Provides the mediator between the
+client-tier(swing), web-tier and the ejb-tier.</span><br>
+  </li>
+  <li style="font-weight: bold;">Session Facade - <span
+ style="font-weight: normal;">This is the point of entry into a
+sub-system - it abstracts the underlying mechanism of the sub-system
+and provides a unified, simple api for business processes. All Session
+Facades in the system end with the word 'facade'.&nbsp; The facade will
+usually use a processor component (local SLSB) for business logic
+processing.<br>
+    </span></li>
+  <li style="font-weight: bold;"><span style="font-weight: normal;"><span
+ style="font-weight: bold;">Service Locator - </span>Provided to
+support finding services from the directory service (JNDI) is
+streamlined and not repeated in code.<br>
+    </span></li>
+  <li style="font-weight: bold;">Fast Lane Reader <span
+ style="font-weight: normal;">- In order to provide read only data
+without the over head of entity beans - this pattern was used, a
+stateless session bean called the data access object directly which
+created and returned a populated data transfer object back.</span><br>
+  </li>
+  <li style="font-weight: bold;">Transfer Object Assembler <span
+ style="font-weight: normal;">- This was used to accumulate data from
+entity beans and various data transfer objects to create a 'clean'
+transfer object. This has not been shown in the high level design
+diagrams to avoid cluttering.</span><br>
+  </li>
+  <li style="font-weight: bold;">Value List Handler -<span
+ style="font-weight: bold;"> </span><span style="font-weight: normal;">This
+pattern was used mostly because of the</span><br>
+  </li>
+  <li style="font-weight: bold;">Data Access Object <span
+ style="font-weight: normal;">- Accesses the underlying datastore &amp;
+external systems, via JDBC &amp; XML-RPC respectively. It also creates
+and populates data transfer objects</span><br>
+  </li>
+  <li style="font-weight: bold;">Data Transfer Object <span
+ style="font-weight: normal;">- Used to transfer data across tiers,
+helps in encapsulating the system's domain objects from clients.</span><br>
+  </li>
+</ul>
+<br style="font-family: courier new,courier,monospace;">
+<font style="font-family: courier new,courier,monospace;" size="-1"><a
+ href="index.html#Table_Of_Contents">Back
+to
+Top</a></font><br style="font-family: courier new,courier,monospace;">
+<br>
+<span style="font-family: courier new,courier,monospace;"><br
+ style="font-family: courier new,courier,monospace;">
+</span>
+<h3
+ style="text-decoration: underline; font-family: courier new,courier,monospace;"><a
+ name="Application_Design"></a>Design Artifacts<br>
+</h3>
+<span style="font-family: monospace;">The following are links to the
+design documents &amp; artifacts for the FBN application:</span><br
+ style="font-family: monospace;">
+<ul style="font-family: monospace;">
+  <li><a href="images/FBN%20Class%20Diagram.gif">Class
+Diagram</a> - The high-level application class diagram. <br>
+  </li>
+  <li><a href="components.html">Component
+Diagrams</a> - The high-level
+component diagram of the system &amp; the detailed component diagrams.</li>
+  <li><a
+ href="images/sequence/Generic%20Rich%20Client%20Sequence%20Diagram.gif">Generic
+Sequence Diagram (Rich Client)</a> - A generic
+(non-business)architectural sequence diagram for the rich client (Java
+Swing).<br>
+  </li>
+  <li><a
+ href="images/sequence/Generic%20Web%20Client%20Sequence%20Diagram.gif">Generic
+Sequence Diagram (Thin Client)</a> - A generic (non-business)
+architectural sequence diagram for the web client.<br>
+  </li>
+  <li><a href="prepareItinerary.html">Prepare
+Itinerary</a> -
+The set of sequence diagrams and component diagram for Prepare
+Itinerary use case.</li>
+  <li><a href="priceItinerary.html">Price
+Itinerary</a> - The set of sequence diagrams and component diagram for
+Price Itinerary use case.</li>
+  <li><a href="payItinerary.html">Pay
+Itinerary</a> - The set of sequence diagrams and component diagram for
+Pay Itinerary use case.</li>
+  <li><a href="changeItinerary.html">Change
+Itinerary</a> - The set of sequence diagrams and component diagram for
+Change Itinerary use case.</li>
+  <li><a href="customerLogIn.html">Customer
+Log-In</a> - The sequence
+diagrams
+and component diagram for Log-In use case.<br>
+  </li>
+  <li><a href="customerCreateProfile.html">Customer
+Create Profile</a>
+- The sequence diagrams and component diagram for Create Profile use
+case.</li>
+  <li><a href="viewFrequentFlierMiles.html">View
+Frequent Flier Miles</a>
+-The sequence diagram for the View Frequent
+Flier Miles use case.<br>
+  </li>
+</ul>
+<span style="font-family: monospace;"></span><br
+ style="font-family: monospace;">
+<span style="font-family: monospace;">Also Note:</span><br
+ style="font-family: monospace;">
+<ul style="font-family: monospace;">
+  <li style="font-family: monospace;">The class diagram is J2EE
+agnostic.It is an extension
+of the business domain object
+model. <br>
+  </li>
+  <li style="font-family: monospace;">The sequence diagrams are high
+level and
+J2EE agnostic. They show component interaction rather than object
+interaction, as a result component creation, destruction are seldom
+shown. All diagrams start with the
+actors on the left-hand side and the business components on
+the right - the flow is left to right &amp; top down. Important
+stereotypes are used to provide clarity. Each
+use-case has multiple sequence diagrams. Only
+relevant components are shown.<br>
+  </li>
+  <li style="font-family: monospace;">The component diagram is a
+high-level diagram , it is supported
+by five detailed component diagrams for each subsystem.<br>
+  </li>
+  <li><span style="font-family: monospace;">The tiers diagram depicts
+the logical tiers within which
+components run. (non-UML).</span><br>
+  </li>
+</ul>
+<br style="font-family: courier new,courier,monospace;">
+<font size="-1" style="font-family: courier new,courier,monospace;"><a
+ href="#Table_Of_Contents">Back
+to
+Top</a></font><br style="font-family: courier new,courier,monospace;">
+<br>
+</body>
+</html>

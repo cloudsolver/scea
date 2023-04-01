@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdy672i32-jkx0bx">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;option.layout.recursive = false &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:node:::N1g64ydza9l5sgsuftl2">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="170,320,300,40"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdzboa76i-mvy907">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="316,2,207,81"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdz7dx1mrsarhka">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="590,180,125,81"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdz7dx7dq-h9if5r">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="170,20,127,70"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdz7dx4h476sbtr">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="300,180,127,87"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdz7dxjeuf9hyn5">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="30,170,117,70"/>
+        </reference>
+    </view>
+    <link uin="Lys2gw5dy7hhkfl-armu5p">
+        <property name="$metaclass" value="Dependency Link"/>
+        <participant referencedUin="design:view:::Vuobnmjdy672i32-jkx0bx" role="Client"/>
+        <participant referencedUin="design:node:::N12t93sdy68vnxy-f6v50a" role="Supplier"/>
+    </link>
+    <link uin="Lys2gw5dy7hhqxj6njo1j">
+        <property name="$metaclass" value="Dependency Link"/>
+        <participant referencedUin="design:view:::Vuobnmjdy672i32-jkx0bx" role="Client"/>
+        <participant referencedUin="design:view:::Vuobnmjdy67fz3q5l1nx" role="Supplier"/>
+    </link>
+    <link uin="Lys2gw5dy7hhugdcp7b1d">
+        <property name="$metaclass" value="Dependency Link"/>
+        <participant referencedUin="design:view:::Vuobnmjdy672i32-jkx0bx" role="Client"/>
+        <participant referencedUin="design:view:::Vuobnmjdxnn2w1h-meeti2" role="Supplier"/>
+    </link>
+    <node uin="N12t93sdz7dx1mrsarhka">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchFlightsCommand"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdy672i32-jkx0bx"/>
+        <property name="@mod__implements" value="com.fbn.nucleus.util.Command"/>
+        <link uin="L5c53vwdzaae1gf-ujvh4o">
+            <property name="$metaclass" value="Implementation Link"/>
+            <property name="@mod__cachedBaseName" value="com.fbn.nucleus.util.Command"/>
+            <participant referencedUin="design:node:::N12t93sdz7dx1mrsarhka" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdza9nd2j-ohe17q" role="Supplier"/>
+        </link>
+        <node uin="L-ae2kl5dzaae5n7-lytf46">
+            <property name="$name" value="execute"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+    </node>
+    <node uin="N12t93sdz7dx4h476sbtr">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchFlightsController"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdy672i32-jkx0bx"/>
+        <property name="@mod__extends" value="HttpServlet"/>
+        <node uin="N-ae2kl5dz7dx4h4-i9fjbs">
+            <property name="$name" value="getSearchProcessor"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <node uin="L-ae2kl5dzaal4ii-drnrno">
+            <property name="$name" value="dispatch"/>
+            <property name="$metaclass" value="Operation"/>
+            <node uin="L-b0f57fdzblqllv4l14c5">
+                <property name="$name" value="request"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__type" value="HttpServletRequest"/>
+            </node>
+            <node uin="L-b0f57fdzblqlmp-k7gu35">
+                <property name="$name" value="response"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__type" value="HttpServletResponse"/>
+            </node>
+            <node uin="L-b0f57fdzblqlmz-78ukuy">
+                <property name="$name" value="page"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__type" value="String"/>
+            </node>
+        </node>
+        <node uin="L-ae2kl5dzaao2q2g6gigh">
+            <property name="$name" value="processRequest"/>
+            <property name="$metaclass" value="Operation"/>
+            <node uin="L-b0f57fdzaapniyfp4u0s">
+                <property name="$name" value="request"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__type" value="HttpServletRequest"/>
+            </node>
+            <node uin="L-b0f57fdzaapnj8-qv0mlw">
+                <property name="$name" value="response"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__type" value="HttpServletResponse"/>
+            </node>
+        </node>
+    </node>
+    <node uin="N12t93sdz7dx7dq-h9if5r">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchFlightsFormBean"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdy672i32-jkx0bx"/>
+    </node>
+    <node uin="N12t93sdz7dxjeuf9hyn5">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchFlightsAdapter"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdy672i32-jkx0bx"/>
+    </node>
+    <node uin="N1g64ydza9l5sgsuftl2">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note1"/>
+        <property name="$note_text" value="SearchFlightsCommand is responsible for calling the business delegate,and returning back a String representation of the view which the controller will dispatch to."/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdy672i32-jkx0bx"/>
+    </node>
+    <node uin="N12t93sdzboa76i-mvy907">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="PriceSelectedAlternateFlightsCommand"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdy672i32-jkx0bx"/>
+        <property name="@mod__implements" value="com.fbn.nucleus.util.Command"/>
+        <link uin="L5c53vwdzboope1-ias7u9">
+            <property name="$metaclass" value="Implementation Link"/>
+            <property name="@mod__cachedBaseName" value="com.fbn.nucleus.util.Command"/>
+            <participant referencedUin="design:node:::N12t93sdzboa76i-mvy907" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdza9nd2j-ohe17q" role="Supplier"/>
+        </link>
+        <node uin="L-ae2kl5dzboov5k-6e9c5q">
+            <property name="$name" value="execute"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+    </node>
+</nodeSet>

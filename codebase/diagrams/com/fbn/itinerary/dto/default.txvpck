@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxnn2w1h-meeti2">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="option.layout.recursive = false &#xA;toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:node:::N1g64ydyx3ytf5-79wpbo">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="390,340,200,80"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3wdyx408379xcomj:N1g64ydyx3ytf5-79wpbo">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="475,420"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="475,650"/>
+            </reference>
+            <reference referencedUin="design:link:::Lr7pm3wdyx404z3vjwbxd:N1g64ydyx3ytf5-79wpbo">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="475,340"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="475,134"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdy6a7wuqebxrg">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="710,300,143,131"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdysvmi0l-yscjwe">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,330,220,102"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::L-cqrrchdysvx9lzdn6l00:N12t93sdysvmi0l-yscjwe">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="187,432"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="430,650"/>
+            </reference>
+            <reference referencedUin="design:link:::L-cqrrchdysvx75i-exwrpf:N12t93sdysvmi0l-yscjwe">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="190,330"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="420,134"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdysvw80d2tj07r">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="390,650,170,80"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::L-cqrrchdysvxeth-r5vo5i:N12t93sdysvw80d2tj07r">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="512,650"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="718,431"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdz4wjrjh-2fkng1">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="247,153,132,70"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdysvtstorixafj">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="370,60,190,74"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::L-cqrrchdysvxc0r-ndqiu3:N12t93sdysvtstorixafj">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="509,134"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="710,303"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdxnn32chwp00r5">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="40,20,148,109"/>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ydyx3swwa-i9fmy">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="40,600,300,40"/>
+            <reference referencedUin="design:link:::Lr7pm3wdyx3uavu73z6yh:N1g64ydyx3swwa-i9fmy">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="140,600"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="140,432"/>
+            </reference>
+        </reference>
+        <reference referencedUin="label:supplierCardinality:design:link:::L-cqrrchdysvxeth-r5vo5i:N12t93sdysvw80d2tj07r">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="683,427,25,11"/>
+        </reference>
+        <reference referencedUin="label:clientCardinality:design:link:::L-cqrrchdysvxeth-r5vo5i:N12t93sdysvw80d2tj07r">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="499,635,13,11"/>
+        </reference>
+        <reference referencedUin="label:clientCardinality:design:link:::L-cqrrchdysvxc0r-ndqiu3:N12t93sdysvtstorixafj">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="531,140,13,11"/>
+        </reference>
+        <reference referencedUin="label:supplierCardinality:design:link:::L-cqrrchdysvx9lzdn6l00:N12t93sdysvmi0l-yscjwe">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="418,626,25,11"/>
+        </reference>
+        <reference referencedUin="label:supplierCardinality:design:link:::L-cqrrchdysvxc0r-ndqiu3:N12t93sdysvtstorixafj">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="705,286,25,11"/>
+        </reference>
+        <reference referencedUin="label:clientCardinality:design:link:::L-cqrrchdysvx9lzdn6l00:N12t93sdysvmi0l-yscjwe">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="216,445,13,11"/>
+        </reference>
+        <reference referencedUin="label:clientCardinality:design:link:::L-cqrrchdysvx75i-exwrpf:N12t93sdysvmi0l-yscjwe">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="205,294,13,11"/>
+        </reference>
+        <reference referencedUin="label:supplierCardinality:design:link:::L-cqrrchdysvx75i-exwrpf:N12t93sdysvmi0l-yscjwe">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="363,140,25,11"/>
+        </reference>
+    </view>
+    <node uin="N12t93sdxnn32chwp00r5">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchCriteriaDTO"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdy68wnac2757ic:L-ae2kl5dy68vxf9-qux0tx:N12t93sdy68vnxy-f6v50a"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdyye1sl0c03sdx:L-ae2kl5dyyd7pqu-lw1539:N12t93sdyswcdpl-5bqt01"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdz2t0lkq-6vq2vm:L-ae2kl5dz2qjt0hosbk0f:N12t93sdz2qikng-doqszh"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdz4arvde-ag6jn4:L-ae2kl5dz4ara1c-bwdol:N12t93sdyswcdpl-5bqt01"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdz4wmtu6-da9rll:N-ae2kl5dz4wlloyt9wvd1:N12t93sdz2qikng-doqszh"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdz4x68h2-o3ts9p:N-ae2kl5dz4wm7mz-k525gu:N12t93sdz2pzb5k-xf3hmf"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdzbiyalx-ub40ba:L-ae2kl5dy5v8zb1u1qzcj:N12t93sdy5v6zdh-3wm8sf"/>
+        <node uin="Lxcwgakdy6825ky-dpp0oc">
+            <property name="$name" value="departureCity"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="String"/>
+            <property name="@mod_Visibility" value="$public"/>
+        </node>
+        <node uin="Lxcwgakdy684zuc-apn7sa">
+            <property name="$name" value="destinationCity"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="String"/>
+            <property name="@mod_Visibility" value="$public"/>
+        </node>
+        <node uin="Lxcwgakdy68aemd7xrcgm">
+            <property name="$name" value="departureCalendar"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="Calendar"/>
+            <property name="@mod_Visibility" value="$public"/>
+        </node>
+        <node uin="Nxcwgakdy68je68qk2zbl">
+            <property name="$name" value="destinationCalendar"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="Calendar"/>
+            <property name="@mod_Visibility" value="$public"/>
+        </node>
+        <node uin="Lxcwgakdy68rbzr-atv50g">
+            <property name="$name" value="roundTrip"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__type" value="Boolean"/>
+        </node>
+    </node>
+    <node uin="N12t93sdy6a7wuqebxrg">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="FlightDTO"/>
+        <property name="$description" value="contains flight information for either the departure flight or the destination."/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdz4we3vti4s31c:N-ae2kl5dz4h9sg3-aji8ju:N12t93sdz2pzb5k-xf3hmf"/>
+        <node uin="Lxcwgakdy7ffaqqubteuu">
+            <property name="$name" value="departureCity"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+        <node uin="Lxcwgakdy7ffw3w-eqlh1d">
+            <property name="$name" value="departureCalendar"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__type" value="Calendar"/>
+        </node>
+        <node uin="Lxcwgakdy7fgoo1efi971">
+            <property name="$name" value="flightNumber"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+        <node uin="Lxcwgakdy7fildl-337mm8">
+            <property name="$name" value="airlineName"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+        <node uin="Nxcwgakdy7fj890-8ln1ff">
+            <property name="$name" value="arrivalCity"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+        <node uin="Nxcwgakdy7fkgrl-gyu76m">
+            <property name="$name" value="arrivalCalendar"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__type" value="Calendar"/>
+        </node>
+        <node uin="Lxcwgakdyycmzsy-dvqe2e">
+            <property name="$name" value="segmentId"/>
+            <property name="$metaclass" value="Attribute"/>
+        </node>
+    </node>
+    <node uin="N12t93sdysvmi0l-yscjwe">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchResultDTO"/>
+        <property name="@mod_usage" value="design:node:::L-ae2kl5dy5v8zb1u1qzcj:N12t93sdy5v6zdh-3wm8sf"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+        <property name="@mod_usage" value="design:node:::L-ae2kl5dy68vxf9-qux0tx:N12t93sdy68vnxy-f6v50a"/>
+        <link uin="L-cqrrchdysvx75i-exwrpf">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierCardinality" value="0..*"/>
+            <property name="@directed" value=""/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+            <participant referencedUin="design:node:::N12t93sdysvmi0l-yscjwe" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdysvtstorixafj" role="Supplier"/>
+        </link>
+        <link uin="L-cqrrchdysvx9lzdn6l00">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierCardinality" value="0..*"/>
+            <property name="@directed" value=""/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+            <participant referencedUin="design:node:::N12t93sdysvmi0l-yscjwe" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdysvw80d2tj07r" role="Supplier"/>
+        </link>
+        <node uin="Lxcwgakdz5nvv0fla6043">
+            <property name="$name" value="arrivalFlights"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__type" value="java.util.List"/>
+        </node>
+        <node uin="Nxcwgakdz5nwdie-yzfl64">
+            <property name="$name" value="departureFlights"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__type" value="java.util.List"/>
+        </node>
+        <node uin="L-ae2kl5dz5odswh-2p13x">
+            <property name="$name" value="setArrivalFlights"/>
+            <property name="$metaclass" value="Operation"/>
+            <node uin="L-b0f57fdz5oeye0-rspial">
+                <property name="$name" value="searchRequest"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__type" value="java.util.List"/>
+            </node>
+        </node>
+        <node uin="N-ae2kl5dz5oe2pr-xelyom">
+            <property name="$name" value="setDepartureFlights"/>
+            <property name="$metaclass" value="Operation"/>
+            <node uin="L-b0f57fdz5rxwcv9pzvrs">
+                <property name="$name" value="departureFlights"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__type" value="java.util.List"/>
+            </node>
+        </node>
+    </node>
+    <node uin="N12t93sdysvtstorixafj">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="DepartureFlightDTO"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+        <link uin="L-cqrrchdysvxc0r-ndqiu3">
+            <property name="@link" value="aggregation"/>
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierCardinality" value="1..*"/>
+            <property name="@directed" value=""/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+            <participant referencedUin="design:node:::N12t93sdysvtstorixafj" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdy6a7wuqebxrg" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N12t93sdysvw80d2tj07r">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="ArrivalFlightDTO"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+        <link uin="L-cqrrchdysvxeth-r5vo5i">
+            <property name="@link" value="aggregation"/>
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@directed" value=""/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierCardinality" value="1..*"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+            <participant referencedUin="design:node:::N12t93sdysvw80d2tj07r" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdy6a7wuqebxrg" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ydyx3swwa-i9fmy">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note1"/>
+        <property name="$note_text" value="The search result will contain departure and arrival flights. &#xA;The &quot;Leg&quot; entity semantics will be hidden from the user interface per specification."/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+        <link uin="Lr7pm3wdyx3uavu73z6yh">
+            <property name="$metaclass" value="Note Link"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+            <participant referencedUin="design:node:::N1g64ydyx3swwa-i9fmy" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdysvmi0l-yscjwe" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ydyx3ytf5-79wpbo">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note2"/>
+        <property name="$note_text" value="A departure or arrival flight may consist of connecting flights. That departure as a whole may be a selectable unit."/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+        <link uin="Lr7pm3wdyx404z3vjwbxd">
+            <property name="$metaclass" value="Note Link"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+            <participant referencedUin="design:node:::N1g64ydyx3ytf5-79wpbo" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdysvtstorixafj" role="Supplier"/>
+        </link>
+        <link uin="Lr7pm3wdyx408379xcomj">
+            <property name="$metaclass" value="Note Link"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+            <participant referencedUin="design:node:::N1g64ydyx3ytf5-79wpbo" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdysvw80d2tj07r" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N12t93sdz4wjrjh-2fkng1">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="FlightSearchCriteriaDTO"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdz4wkvtm-x8p1y0:L-ae2kl5dz2qjem893lpml:N12t93sdz2qikng-doqszh"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxnn2w1h-meeti2"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdz5qry4pfcwbcn:N-ae2kl5dz5qqx98-sg1c35:N12t93sdy5v6zdh-3wm8sf"/>
+    </node>
+</nodeSet>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmje1jpki27-iraogv">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="option.layout.recursive = false &#xA;"/>
+        <reference referencedUin="design:view:::Vuobnmje1jpki27-881rn7">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="200,20,80,64"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmje1jpki27s4nguz">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,20,80,65"/>
+        </reference>
+    </view>
+</nodeSet>

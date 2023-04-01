@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V-axevyme1vc9fms-hnjfr1">
+        <property name="$metaclass" value="Sequence Diagram"/>
+        <property name="$description" value=""/>
+        <property name="@__options" value="scrollY = 0&#xA;zoomFactor = 1.0&#xA;toolbar.group.Tools.expanded = true&#xA;toolbar.buttonRunCount = 2&#xA;toolbar.group.#DEFAULT.expanded = true&#xA;toolbar.group.note.expanded = true&#xA;scrollX = 0&#xA;"/>
+        <reference referencedUin="design:node:::N1g64ye1vfovrqj90p6n">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="seq_bounds" value="660,512,143,54"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="660,512,143,54"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we1vfq4k2boma05:N1g64ye1vfovrqj90p6n">
+                <property name="@seq_location_set_by_user" value="false"/>
+                <property name="@location_set_by_user" value="false"/>
+                <property name="seq_sourceAnchor" value="731,512"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="731,413"/>
+                <property name="sourceAnchor" value="731,512"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="731,413"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-w2q8pte1vf6ly6btyt4w">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="seq_bounds" value="904,30,97,675"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="904,30,97,675"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:node:::N-4aytaie1vf8hoerpj8xm:N-w2q8pte1vf6ly6btyt4w"/>
+        </reference>
+        <reference referencedUin="design:node:::N-w2q8pte1vca58o-eoyp1i">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="seq_bounds" value="30,30,56,675"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="30,30,56,675"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Ld51cw1e1y7zfpqvkbzc5:N-w2q8pte1vca58o-eoyp1i">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="292"/>
+                <property name="processingDuration" value="333"/>
+                <property name="seq_sourceAnchor" value="65,292"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="263,292"/>
+                <property name="sourceAnchor" value="65,292"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="263,292"/>
+            </reference>
+            <reference referencedUin="design:link:::Ld51cw1e1vf1s91-px2li3:N-w2q8pte1vca58o-eoyp1i">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="115"/>
+                <property name="processingDuration" value="90"/>
+                <property name="seq_sourceAnchor" value="65,115"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="149,115"/>
+                <property name="sourceAnchor" value="65,115"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="149,115"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-w2q8pte1vf5eq2fbic7u">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="seq_bounds" value="746,332,135,373"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="746,332,135,373"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:node:::N-4aytaie1vf5pyt3w1bxf:N-w2q8pte1vf5eq2fbic7u"/>
+            <reference referencedUin="design:node:::N-4aytaie1vf60bacsvcp7:N-w2q8pte1vf5eq2fbic7u"/>
+        </reference>
+        <reference referencedUin="design:node:::N-w2q8pte1vca57k-8zlscy">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="seq_bounds" value="332,30,107,675"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="332,30,107,675"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Ld51cw1e1vf3pukg8fjpo:N-w2q8pte1vca57k-8zlscy">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="332"/>
+                <property name="processingDuration" value="273"/>
+                <property name="seq_sourceAnchor" value="392,332"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="644,332"/>
+                <property name="sourceAnchor" value="392,332"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="644,332"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-w2q8pte1vca57u-s4ft49">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="seq_bounds" value="232,30,77,675"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="232,30,77,675"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Ld51cw1e1y80c3a-ia9r5a:N-w2q8pte1vca57u-s4ft49">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="312"/>
+                <property name="processingDuration" value="303"/>
+                <property name="seq_sourceAnchor" value="277,312"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="378,312"/>
+                <property name="sourceAnchor" value="277,312"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="378,312"/>
+            </reference>
+            <reference referencedUin="design:node:::N-4aytaie1vf2mix-srokiq:N-w2q8pte1vca57u-s4ft49"/>
+            <reference referencedUin="design:node:::N-4aytaie1y7zfq085b4ja:N-w2q8pte1vca57u-s4ft49"/>
+        </reference>
+        <reference referencedUin="design:node:::N-w2q8pte1vca56q-ltyhkr">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="seq_bounds" value="462,30,95,675"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="462,30,95,675"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:node:::N-4aytaie1vf259rn3yux5:N-w2q8pte1vca56q-ltyhkr"/>
+        </reference>
+        <reference referencedUin="design:node:::N-w2q8pte1vca584xerq2g">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="seq_bounds" value="114,30,85,675"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="114,30,85,675"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Ld51cw1e1vf2eyb-6k6ifs:N-w2q8pte1vca584xerq2g">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="175"/>
+                <property name="processingDuration" value="20"/>
+                <property name="seq_sourceAnchor" value="163,175"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="263,175"/>
+                <property name="sourceAnchor" value="163,175"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="263,175"/>
+            </reference>
+            <reference referencedUin="design:link:::Ld51cw1e1vf259h-ffshl7:N-w2q8pte1vca584xerq2g">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="135"/>
+                <property name="processingDuration" value="20"/>
+                <property name="seq_sourceAnchor" value="163,135"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="502,135"/>
+                <property name="sourceAnchor" value="163,135"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="502,135"/>
+            </reference>
+            <reference referencedUin="design:node:::N-4aytaie1vf1s9v-igrmee:N-w2q8pte1vca584xerq2g"/>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye1vfobklkhl6gx">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="@fontName" value="Garamond"/>
+            <property name="@fontSize" value="14"/>
+            <property name="seq_bounds" value="-5,729,154,40"/>
+            <property name="bounds" value="-5,729,154,40"/>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye1vggf21-bggzv0">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="seq_bounds" value="69,359,85,50"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="69,359,85,50"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we1y81sx7-qnn6nf:N1g64ye1vggf21-bggzv0">
+                <property name="@seq_location_set_by_user" value="false"/>
+                <property name="@location_set_by_user" value="false"/>
+                <property name="seq_sourceAnchor" value="111,359"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="111,292"/>
+                <property name="sourceAnchor" value="111,359"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="111,292"/>
+            </reference>
+            <reference referencedUin="design:link:::Lr7pm3we1vgh7u9-cjhpa:N1g64ye1vggf21-bggzv0">
+                <property name="@seq_location_set_by_user" value="false"/>
+                <property name="@location_set_by_user" value="false"/>
+                <property name="seq_sourceAnchor" value="154,384"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="156,384"/>
+                <property name="sourceAnchor" value="154,384"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="156,384"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye1vge7ug-ik7zkt">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="seq_bounds" value="1087,553,123,53"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="1087,553,123,53"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we1vgew1z-ealg3r:N1g64ye1vge7ug-ik7zkt">
+                <property name="@seq_location_set_by_user" value="false"/>
+                <property name="@location_set_by_user" value="false"/>
+                <property name="seq_sourceAnchor" value="1148,553"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="1148,515"/>
+                <property name="sourceAnchor" value="1148,553"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1148,515"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-w2q8pte1vca570a9jdqg">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="seq_bounds" value="580,30,143,675"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="580,30,143,675"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:node:::N-4aytaie1vf3puu6xcgwn:N-w2q8pte1vca570a9jdqg"/>
+            <reference referencedUin="design:link:::Ld51cw1e1vf5pyjo2k5c2:N-w2q8pte1vca570a9jdqg">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="352"/>
+                <property name="processingDuration" value="40"/>
+                <property name="seq_sourceAnchor" value="658,352"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="746,352"/>
+                <property name="sourceAnchor" value="658,352"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="746,352"/>
+            </reference>
+            <reference referencedUin="design:link:::Ld51cw1e1vf3yr1-dp3pn2:N-w2q8pte1vca570a9jdqg">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="495"/>
+                <property name="processingDuration" value="50"/>
+                <property name="seq_sourceAnchor" value="658,495"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="1069,495"/>
+                <property name="sourceAnchor" value="658,495"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1069,495"/>
+            </reference>
+            <reference referencedUin="design:link:::Ld51cw1e1vgm3h8pq70qw:N-w2q8pte1vca570a9jdqg">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="575"/>
+                <property name="processingDuration" value="20"/>
+                <property name="seq_sourceAnchor" value="644,575"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="516,575"/>
+                <property name="sourceAnchor" value="644,575"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="516,575"/>
+            </reference>
+            <reference referencedUin="design:link:::Ld51cw1e1vf60b0dxn16k:N-w2q8pte1vca570a9jdqg">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="453"/>
+                <property name="processingDuration" value="20"/>
+                <property name="seq_sourceAnchor" value="658,453"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="806,453"/>
+                <property name="sourceAnchor" value="658,453"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="806,453"/>
+            </reference>
+            <reference referencedUin="design:link:::Ld51cw1e1vf8ho4xhgwuz:N-w2q8pte1vca570a9jdqg">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="413"/>
+                <property name="processingDuration" value="20"/>
+                <property name="seq_sourceAnchor" value="658,413"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="945,413"/>
+                <property name="sourceAnchor" value="658,413"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="945,413"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-w2q8pte1vca566-9cdk7t">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="seq_bounds" value="1024,30,104,675"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="1024,30,104,675"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:node:::N-4aytaie1vf3yrle6kx00:N-w2q8pte1vca566-9cdk7t"/>
+            <reference referencedUin="design:link:::Ld51cw1e1vf45tu-je7iyf:N-w2q8pte1vca566-9cdk7t">
+                <property name="@seq_location_set_by_user" value="true"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sendingInstant" value="515"/>
+                <property name="processingDuration" value="20"/>
+                <property name="seq_sourceAnchor" value="1083,515"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="1207,515"/>
+                <property name="sourceAnchor" value="1083,515"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1207,515"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye211nkgc-tucf9z">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="seq_bounds" value="521,595,120,40"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="521,595,120,40"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we211ny6ot9hfvd:N1g64ye211nkgc-tucf9z">
+                <property name="@seq_location_set_by_user" value="false"/>
+                <property name="@location_set_by_user" value="false"/>
+                <property name="seq_sourceAnchor" value="581,595"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="581,575"/>
+                <property name="sourceAnchor" value="581,595"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="581,575"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye1vgmavgsigurl">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="seq_bounds" value="169,212,131,67"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="169,212,131,67"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we1vgnqema2acqh:N1g64ye1vgmavgsigurl">
+                <property name="@seq_location_set_by_user" value="false"/>
+                <property name="@location_set_by_user" value="false"/>
+                <property name="seq_sourceAnchor" value="217,212"/>
+                <property name="seq_bendpoints" value=""/>
+                <property name="seq_targetAnchor" value="217,175"/>
+                <property name="sourceAnchor" value="217,212"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="217,175"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-w2q8pte1vca55w-go9xb0">
+            <property name="$shortcutReference" value=""/>
+            <property name="@seq_location_set_by_user" value="true"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="seq_bounds" value="1151,30,126,675"/>
+            <property name="seq_bounds_setted_by_user" value="true"/>
+            <property name="bounds" value="1151,30,126,675"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:node:::N-4aytaie1vf45u4v70i7g:N-w2q8pte1vca55w-go9xb0"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1vf45tu-je7iyf:N-w2q8pte1vca566-9cdk7t">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="1087,500,60,11"/>
+            <property name="bounds" value="1087,500,60,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1vf8ho4xhgwuz:N-w2q8pte1vca570a9jdqg">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="662,398,67,11"/>
+            <property name="bounds" value="662,398,67,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1vf1s91-px2li3:N-w2q8pte1vca58o-eoyp1i">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="69,100,104,11"/>
+            <property name="bounds" value="69,100,104,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1vf2eyb-6k6ifs:N-w2q8pte1vca584xerq2g">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="167,160,41,11"/>
+            <property name="bounds" value="167,160,41,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1y7zfpqvkbzc5:N-w2q8pte1vca58o-eoyp1i">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="69,277,85,11"/>
+            <property name="bounds" value="69,277,85,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1vf3yr1-dp3pn2:N-w2q8pte1vca570a9jdqg">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="662,480,33,11"/>
+            <property name="bounds" value="662,480,33,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1vf259h-ffshl7:N-w2q8pte1vca584xerq2g">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="167,120,70,11"/>
+            <property name="bounds" value="167,120,70,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1vf3pukg8fjpo:N-w2q8pte1vca57k-8zlscy">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="396,317,39,11"/>
+            <property name="bounds" value="396,317,39,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1vf60b0dxn16k:N-w2q8pte1vca570a9jdqg">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="662,438,43,11"/>
+            <property name="bounds" value="662,438,43,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1y80c3a-ia9r5a:N-w2q8pte1vca57u-s4ft49">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="281,297,71,11"/>
+            <property name="bounds" value="281,297,71,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1vf5pyjo2k5c2:N-w2q8pte1vca570a9jdqg">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="662,337,33,11"/>
+            <property name="bounds" value="662,337,33,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Ld51cw1e1vgm3h8pq70qw:N-w2q8pte1vca570a9jdqg">
+            <property name="@seq_location_set_by_user" value="false"/>
+            <property name="@location_set_by_user" value="false"/>
+            <property name="seq_bounds" value="571,560,69,11"/>
+            <property name="bounds" value="571,560,69,11"/>
+        </reference>
+    </view>
+    <node uin="N-w2q8pte1vca55w-go9xb0">
+        <property name="$metaclass" value="Object"/>
+        <property name="$name" value="CustomerFacade"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevymdzbrl3nxitvvpu"/>
+        <node uin="N-4aytaie1vf45u4v70i7g">
+            <property name="$name" value="Activation1"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1vf45tu-je7iyf:N-w2q8pte1vca566-9cdk7t"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <link uin="Lyi6gn3e1vgotaf-o1ec35">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca55w-go9xb0" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca566-9cdk7t" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-w2q8pte1vca566-9cdk7t">
+        <property name="$metaclass" value="Object"/>
+        <property name="$name" value="CustomerDelegate"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevyme1qsa21qctb5ie"/>
+        <node uin="N-4aytaie1vf3yrle6kx00">
+            <property name="$name" value="Activation1"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1vf3yr1-dp3pn2:N-w2q8pte1vca570a9jdqg"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <link uin="Ld51cw1e1vf45tu-je7iyf">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="2.1.1.4.1"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="$name" value="validateUser"/>
+            <property name="normalizedIndex" value="0.5"/>
+            <property name="predecessorUid" value="design:link:::Ld51cw1e1vf3yr1-dp3pn2:N-w2q8pte1vca570a9jdqg"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1vf45u4v70i7g:N-w2q8pte1vca55w-go9xb0"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca566-9cdk7t" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca55w-go9xb0" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e1vgotafr1al0l">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca566-9cdk7t" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e219ehj03d9m8k">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca566-9cdk7t" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca55w-go9xb0" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-w2q8pte1vca56q-ltyhkr">
+        <property name="$metaclass" value="Object"/>
+        <property name="$name" value="ClientContext"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevymdzpmsagw-ylo66c"/>
+        <node uin="N-4aytaie1vf259rn3yux5">
+            <property name="$name" value="Activation1"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1vf259h-ffshl7:N-w2q8pte1vca584xerq2g"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <node uin="N-4aytaie1vgm3ge-wqnx20">
+            <property name="$name" value="Activation2"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1vgm3h8pq70qw:N-w2q8pte1vca570a9jdqg"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <link uin="Lyi6gn3e1vgotafgmqkkm">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca56q-ltyhkr" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e1vgotaf-913o68">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca56q-ltyhkr" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca584xerq2g" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-w2q8pte1vca570a9jdqg">
+        <property name="$metaclass" value="Object"/>
+        <property name="$name" value="CustomerSignInCommand"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevymdzpmsagw-ylo66c"/>
+        <node uin="N-4aytaie1vf3puu6xcgwn">
+            <property name="$name" value="Activation1"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1vf3pukg8fjpo:N-w2q8pte1vca57k-8zlscy"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <link uin="Ld51cw1e1vf3yr1-dp3pn2">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="2.1.1.4"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="$name" value="signIn"/>
+            <property name="normalizedIndex" value="0.6666667"/>
+            <property name="predecessorUid" value="design:link:::Ld51cw1e1vf3pukg8fjpo:N-w2q8pte1vca57k-8zlscy"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1vf3yrle6kx00:N-w2q8pte1vca566-9cdk7t"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca566-9cdk7t" role="Supplier"/>
+        </link>
+        <link uin="Ld51cw1e1vf5pyjo2k5c2">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="2.1.1.1"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="creation" value="true"/>
+            <property name="@minProcessingDuration" value="40"/>
+            <property name="normalizedIndex" value="0.16666667"/>
+            <property name="predecessorUid" value="design:link:::Ld51cw1e1vf3pukg8fjpo:N-w2q8pte1vca57k-8zlscy"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1vf5pyt3w1bxf:N-w2q8pte1vf5eq2fbic7u"/>
+            <property name="$name" value="create"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vf5eq2fbic7u" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e1vf5pyt-zewabp">
+            <property name="$metaclass" value="Messages Link"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vf5eq2fbic7u" role="Supplier"/>
+        </link>
+        <link uin="Ld51cw1e1vf60b0dxn16k">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="2.1.1.3"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="$name" value="populate"/>
+            <property name="@minProcessingDuration" value="20"/>
+            <property name="normalizedIndex" value="0.5"/>
+            <property name="predecessorUid" value="design:link:::Ld51cw1e1vf3pukg8fjpo:N-w2q8pte1vca57k-8zlscy"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1vf60bacsvcp7:N-w2q8pte1vf5eq2fbic7u"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vf5eq2fbic7u" role="Supplier"/>
+        </link>
+        <link uin="Ld51cw1e1vf8ho4xhgwuz">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="2.1.1.2"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="$name" value="hashPassword"/>
+            <property name="normalizedIndex" value="0.33333334"/>
+            <property name="predecessorUid" value="design:link:::Ld51cw1e1vf3pukg8fjpo:N-w2q8pte1vca57k-8zlscy"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1vf8hoerpj8xm:N-w2q8pte1vf6ly6btyt4w"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vf6ly6btyt4w" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e1vf8hoe7a24qi">
+            <property name="$metaclass" value="Messages Link"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vf6ly6btyt4w" role="Supplier"/>
+        </link>
+        <link uin="Ld51cw1e1vgm3h8pq70qw">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="2.1.1.5"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="$name" value="setCustomerId"/>
+            <property name="@minProcessingDuration" value="20"/>
+            <property name="normalizedIndex" value="0.8333333"/>
+            <property name="predecessorUid" value="design:link:::Ld51cw1e1vf3pukg8fjpo:N-w2q8pte1vca57k-8zlscy"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1vgm3ge-wqnx20:N-w2q8pte1vca56q-ltyhkr"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca56q-ltyhkr" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e1vgotafccy3ub">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57k-8zlscy" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e219ehj0ln8nvn">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca566-9cdk7t" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e219ehj0md61dn">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca56q-ltyhkr" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-w2q8pte1vca57k-8zlscy">
+        <property name="$metaclass" value="Object"/>
+        <property name="$name" value="CustomerController"/>
+        <property name="@stereotype" value="controller"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevyme1qsa21qctb5ie"/>
+        <link uin="Ld51cw1e1vf3pukg8fjpo">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="2.1.1"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="$name" value="execute"/>
+            <property name="normalizedIndex" value="0.5"/>
+            <property name="predecessorUid" value="design:link:::Ld51cw1e1y80c3a-ia9r5a:N-w2q8pte1vca57u-s4ft49"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1vf3puu6xcgwn:N-w2q8pte1vca570a9jdqg"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57k-8zlscy" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Supplier"/>
+        </link>
+        <node uin="N-4aytaie1y80c1w-v676fz">
+            <property name="$name" value="Activation1"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1y80c3a-ia9r5a:N-w2q8pte1vca57u-s4ft49"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <link uin="Lyi6gn3e1y83uda4aqgmu">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57k-8zlscy" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57u-s4ft49" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e219ehj0wju6il">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57k-8zlscy" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-w2q8pte1vca57u-s4ft49">
+        <property name="$metaclass" value="Object"/>
+        <property name="$name" value="SignInScreen"/>
+        <property name="@stereotype" value="boundary"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevyme1qsa21qctb5ie"/>
+        <node uin="N-4aytaie1vf2mix-srokiq">
+            <property name="$name" value="Activation1"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1vf2eyb-6k6ifs:N-w2q8pte1vca584xerq2g"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <link uin="Lyi6gn3e1vgotaf-987owu">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57u-s4ft49" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca584xerq2g" role="Supplier"/>
+        </link>
+        <node uin="N-4aytaie1y7zfq085b4ja">
+            <property name="$name" value="Activation2"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1y7zfpqvkbzc5:N-w2q8pte1vca58o-eoyp1i"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <link uin="Ld51cw1e1y80c3a-ia9r5a">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="2.1"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="normalizedIndex" value="0.5"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1y80c1w-v676fz:N-w2q8pte1vca57k-8zlscy"/>
+            <property name="$name" value="processRequest"/>
+            <property name="predecessorUid" value="design:link:::Ld51cw1e1y7zfpqvkbzc5:N-w2q8pte1vca58o-eoyp1i"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57u-s4ft49" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57k-8zlscy" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e1y83udapr0hqv">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57u-s4ft49" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca58o-eoyp1i" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e219ehj0o5o3ql">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57u-s4ft49" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57k-8zlscy" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-w2q8pte1vca584xerq2g">
+        <property name="$metaclass" value="Object"/>
+        <property name="$name" value="SignInFilter"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevyme1qsa21qctb5ie"/>
+        <node uin="N-4aytaie1vf1s9v-igrmee">
+            <property name="$name" value="Activation1"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1vf1s91-px2li3:N-w2q8pte1vca58o-eoyp1i"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <link uin="Ld51cw1e1vf259h-ffshl7">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="1.1"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="$name" value="getCustomerId"/>
+            <property name="@minProcessingDuration" value="20"/>
+            <property name="normalizedIndex" value="0.33333334"/>
+            <property name="predecessorUid" value="design:link:::Ld51cw1e1vf1s91-px2li3:N-w2q8pte1vca58o-eoyp1i"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1vf259rn3yux5:N-w2q8pte1vca56q-ltyhkr"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca584xerq2g" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca56q-ltyhkr" role="Supplier"/>
+        </link>
+        <link uin="Ld51cw1e1vf2eyb-6k6ifs">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="1.2"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="$name" value="dispatch"/>
+            <property name="normalizedIndex" value="0.6666667"/>
+            <property name="predecessorUid" value="design:link:::Ld51cw1e1vf1s91-px2li3:N-w2q8pte1vca58o-eoyp1i"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1vf2mix-srokiq:N-w2q8pte1vca57u-s4ft49"/>
+            <property name="@minProcessingDuration" value="20"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca584xerq2g" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57u-s4ft49" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e1vgotafbe09ea">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca584xerq2g" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca58o-eoyp1i" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e219ehj0-p7v5wk">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca584xerq2g" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca56q-ltyhkr" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e219ehj0-c0chdg">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca584xerq2g" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57u-s4ft49" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-w2q8pte1vca58o-eoyp1i">
+        <property name="$metaclass" value="Object"/>
+        <property name="$name" value="Customer"/>
+        <property name="@stereotype" value="actor"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevymdzbrl3nxitvvpu"/>
+        <link uin="Ld51cw1e1vf1s91-px2li3">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="1"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="$name" value="access protected screen"/>
+            <property name="@minProcessingDuration" value="90"/>
+            <property name="normalizedIndex" value="0.33333334"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1vf1s9v-igrmee:N-w2q8pte1vca584xerq2g"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca58o-eoyp1i" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca584xerq2g" role="Supplier"/>
+        </link>
+        <link uin="Ld51cw1e1y7zfpqvkbzc5">
+            <property name="$metaclass" value="Message Link"/>
+            <property name="sequenceNumber" value="2"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <property name="$name" value="submits credentials"/>
+            <property name="normalizedIndex" value="0.6666667"/>
+            <property name="activationUid" value="design:node:::N-4aytaie1y7zfq085b4ja:N-w2q8pte1vca57u-s4ft49"/>
+            <property name="@minProcessingDuration" value="333"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca58o-eoyp1i" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57u-s4ft49" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e219ehj0-px548v">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca58o-eoyp1i" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca57u-s4ft49" role="Supplier"/>
+        </link>
+        <link uin="Lyi6gn3e219ehj08p50pj">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca58o-eoyp1i" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca584xerq2g" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-w2q8pte1vf5eq2fbic7u">
+        <property name="$metaclass" value="Object"/>
+        <property name="$name" value="CustomerCredentialsDTO"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        <node uin="N-4aytaie1vf5pyt3w1bxf">
+            <property name="$name" value="Activation1"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1vf5pyjo2k5c2:N-w2q8pte1vca570a9jdqg"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <node uin="N-4aytaie1vf60bacsvcp7">
+            <property name="$name" value="Activation2"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1vf60b0dxn16k:N-w2q8pte1vca570a9jdqg"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <link uin="Lyi6gn3e219ehj0ceotfj">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vf5eq2fbic7u" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-w2q8pte1vf6ly6btyt4w">
+        <property name="$metaclass" value="Object"/>
+        <property name="$name" value="StringHasherUtil"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevymdzuhhhr3-vm4l7e"/>
+        <node uin="N-4aytaie1vf8hoerpj8xm">
+            <property name="$name" value="Activation1"/>
+            <property name="$metaclass" value="Activation"/>
+            <property name="messageUid" value="design:link:::Ld51cw1e1vf8ho4xhgwuz:N-w2q8pte1vca570a9jdqg"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        </node>
+        <link uin="Lyi6gn3e219ehj0-71hc29">
+            <property name="$metaclass" value="Messages Link"/>
+            <property name="$name" value="CollaborationLink"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vf6ly6btyt4w" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca570a9jdqg" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye1vfobklkhl6gx">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note1"/>
+        <property name="$note_text" value="Title: Customer Log In&#xA;Author: Rohit Sood"/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+    </node>
+    <node uin="N1g64ye1vfovrqj90p6n">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note2"/>
+        <property name="$note_text" value="Password from the form submission is hashed one-way before setting into the transfer object."/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        <link uin="Lr7pm3we1vfq4k2boma05">
+            <property name="$metaclass" value="Note Link"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <participant referencedUin="design:node:::N1g64ye1vfovrqj90p6n" role="Client"/>
+            <participant referencedUin="design:link:::Ld51cw1e1vf8ho4xhgwuz:N-w2q8pte1vca570a9jdqg" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye1vge7ug-ik7zkt">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note3"/>
+        <property name="$note_text" value="Validates the user and returns a customer id and other customer information."/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        <link uin="Lr7pm3we1vgew1z-ealg3r">
+            <property name="$metaclass" value="Note Link"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <participant referencedUin="design:node:::N1g64ye1vge7ug-ik7zkt" role="Client"/>
+            <participant referencedUin="design:link:::Ld51cw1e1vf45tu-je7iyf:N-w2q8pte1vca566-9cdk7t" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye1vggf21-bggzv0">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note4"/>
+        <property name="$note_text" value="Customer enters the user id and password."/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        <link uin="Lr7pm3we1vgh7u9-cjhpa">
+            <property name="$metaclass" value="Note Link"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <participant referencedUin="design:node:::N1g64ye1vggf21-bggzv0" role="Client"/>
+            <participant referencedUin="design:node:::N-w2q8pte1vca584xerq2g" role="Supplier"/>
+        </link>
+        <link uin="Lr7pm3we1y81sx7-qnn6nf">
+            <property name="$metaclass" value="Note Link"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <participant referencedUin="design:node:::N1g64ye1vggf21-bggzv0" role="Client"/>
+            <participant referencedUin="design:link:::Ld51cw1e1y7zfpqvkbzc5:N-w2q8pte1vca58o-eoyp1i" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye1vgmavgsigurl">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note5"/>
+        <property name="$note_text" value="Filter dispatches to sign in screen if no customer id was found in user session (from client context)."/>
+        <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+        <link uin="Lr7pm3we1vgnqema2acqh">
+            <property name="$metaclass" value="Note Link"/>
+            <property name="diagram_uniqe_name" value="design:view:::V-axevyme1vc9fms-hnjfr1"/>
+            <participant referencedUin="design:node:::N1g64ye1vgmavgsigurl" role="Client"/>
+            <participant referencedUin="design:link:::Ld51cw1e1vf2eyb-6k6ifs:N-w2q8pte1vca584xerq2g" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye211nkgc-tucf9z">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note6"/>
+        <property name="$note_text" value="Sets the customer id and other customer information."/>
+        <link uin="Lr7pm3we211ny6ot9hfvd">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye211nkgc-tucf9z" role="Client"/>
+            <participant referencedUin="design:link:::Ld51cw1e1vgm3h8pq70qw:N-w2q8pte1vca570a9jdqg" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>

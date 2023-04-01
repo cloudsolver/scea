@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxdwd4ygp1joz9">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="option.layout.recursive = false &#xA;toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:node:::N12t93sdzx95w9ew6kqhw">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="10,10,104,76"/>
+            <reference referencedUin="design:link:::Lys2gw5e1ybfk6d-x5wib6:N12t93sdzx95w9ew6kqhw">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="114,45"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="203,45"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdy7fbls4-7g1n9w">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="295,174,108,98"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93se1zd7ciqglxkgw">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@hideAttributes" value=""/>
+            <property name="bounds" value="351,1,103,82"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdy64197h-slgtjl">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="22,150,164,87"/>
+            <reference referencedUin="design:link:::Lys2gw5e1zdaw2l-r0g69o:N12t93sdy64197h-slgtjl">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="186,153"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="351,77"/>
+            </reference>
+            <reference referencedUin="design:link:::Lys2gw5dy7fcpur-bcswx7:N12t93sdy64197h-slgtjl">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="186,205"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="295,205"/>
+            </reference>
+            <reference referencedUin="design:link:::Lys2gw5dzx98iyq-t1h56a:N12t93sdy64197h-slgtjl">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="68,150"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="68,86"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdzx8w8ty95s6e8">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="203,10,103,70"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Lys2gw5e1ybfk6d-x5wib6:N12t93sdzx95w9ew6kqhw">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="121,48,75,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Lys2gw5dy7fcpur-bcswx7:N12t93sdy64197h-slgtjl">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="194,208,92,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Lys2gw5dzx98iyq-t1h56a:N12t93sdy64197h-slgtjl">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="6,113,59,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::Lys2gw5e1zdaw2l-r0g69o:N12t93sdy64197h-slgtjl">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="220,139,96,11"/>
+        </reference>
+    </view>
+    <node uin="N12t93sdy64197h-slgtjl">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="PaymentHelper"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwd4ygp1joz9"/>
+        <property name="Alias" value="PaymentHelper"/>
+        <node uin="L-ae2kl5dy644whgn9txqc">
+            <property name="$name" value="sendAsynchronousMessage"/>
+            <property name="$metaclass" value="Operation"/>
+            <node uin="L-b0f57fdy647jo1kbqj6d">
+                <property name="$name" value="customerPayment"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__typeReferencedElement" value="design:node:::N12t93sdxdrc8gu-vw53mw"/>
+                <property name="@mod__type" value="com.fbn.customer.entity.Customer"/>
+            </node>
+        </node>
+        <link uin="Lys2gw5dy7fcpur-bcswx7">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@label" value="processes credit card"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwd4ygp1joz9"/>
+            <participant referencedUin="design:node:::N12t93sdy64197h-slgtjl" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdy7fbls4-7g1n9w" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5dzx98iyq-t1h56a">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@label" value="messages to"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwd4ygp1joz9"/>
+            <participant referencedUin="design:node:::N12t93sdy64197h-slgtjl" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdzx95w9ew6kqhw" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5e1zdaw2l-r0g69o">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@label" value="redeems award miles"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwd4ygp1joz9"/>
+            <participant referencedUin="design:node:::N12t93sdy64197h-slgtjl" role="Client"/>
+            <participant referencedUin="design:node:::N12t93se1zd7ciqglxkgw" role="Supplier"/>
+        </link>
+        <node uin="L-ae2kl5e1zef2pdc2liwk">
+            <property name="$name" value="checkAwardMilesAuthorization"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <node uin="L-ae2kl5e1zefqcl-bdq43e">
+            <property name="$name" value="checkTransMasterAuthorization"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+    </node>
+    <node uin="N12t93sdy7fbls4-7g1n9w">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="TransMasterFacade"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwd4ygp1joz9"/>
+        <property name="Alias" value="TransMasterFacade"/>
+        <node uin="L-ae2kl5e1z9o8ud-ufb1k2">
+            <property name="$name" value="isAuthorized"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <node uin="L-ae2kl5e1z9oz1o-kkrnr">
+            <property name="$name" value="charge"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <node uin="N-ae2kl5e1zehm5cui2efn">
+            <property name="$name" value="sendRequest"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod_Visibility" value="$private"/>
+        </node>
+        <node uin="N-ae2kl5e1zehm5msqq91m">
+            <property name="$name" value="processResponse"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod_Visibility" value="$private"/>
+        </node>
+    </node>
+    <node uin="N12t93sdzx8w8ty95s6e8">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="PaymentProcessor"/>
+        <property name="Alias" value="PaymentProcessor"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwd4ygp1joz9"/>
+        <link uin="Lys2gw5dzx8z383y5kdya">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@label" value="pays with"/>
+            <participant referencedUin="design:node:::N12t93sdzx8w8ty95s6e8" role="Client"/>
+            <participant referencedUin="design:node:::N12t93se1z4mnb68wiobt" role="Supplier"/>
+        </link>
+        <node uin="L-ae2kl5e1zaepms-kksxax">
+            <property name="$name" value="charge"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+    </node>
+    <node uin="N12t93sdzx95w9ew6kqhw">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="PaymentListener"/>
+        <property name="Alias" value="PaymentListener"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwd4ygp1joz9"/>
+        <link uin="Lys2gw5dzx96p9ozexts6">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@label" value="sends e-mail"/>
+            <participant referencedUin="design:node:::N12t93sdzx95w9ew6kqhw" role="Client"/>
+            <participant referencedUin="design:node:::N12t93se1jpki27-n2unvb" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5dzx97adx-7tm2nw">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@label" value="uses"/>
+            <participant referencedUin="design:node:::N12t93sdzx95w9ew6kqhw" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxw6urodr625q" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5e1ybfk6d-x5wib6">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@label" value="makes payment"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwd4ygp1joz9"/>
+            <participant referencedUin="design:node:::N12t93sdzx95w9ew6kqhw" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdzx8w8ty95s6e8" role="Supplier"/>
+        </link>
+        <node uin="L-ae2kl5e1z9nd4g-s95pyo">
+            <property name="$name" value="processPayment"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <node uin="L-ae2kl5e1z9nm3ow8mczq">
+            <property name="$name" value="processMessage"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+    </node>
+    <node uin="N12t93se1zd7ciqglxkgw">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="AwardMilesFacade"/>
+        <property name="Alias" value="AwardMilesFacade"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwd4ygp1joz9"/>
+        <node uin="L-ae2kl5e1zdaf1sec8h5n">
+            <property name="$name" value="charge"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <node uin="L-ae2kl5e1zdalh8-8ako0z">
+            <property name="$name" value="isAuthorized"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <node uin="L-ae2kl5e1zeg52tp0advm">
+            <property name="$name" value="sendRequest"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod_Visibility" value="$private"/>
+        </node>
+        <node uin="L-ae2kl5e1zegrpl5ds9je">
+            <property name="$name" value="processResponse"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod_Visibility" value="$private"/>
+        </node>
+    </node>
+</nodeSet>

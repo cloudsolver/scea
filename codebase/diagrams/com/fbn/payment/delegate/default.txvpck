@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxwcn4og-bxovdv">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="option.layout.recursive = false&#xA;"/>
+        <reference referencedUin="design:node:::N12t93sdzbpjufi3n67l5">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,20,112,70"/>
+        </reference>
+    </view>
+    <node uin="N12t93sdzbpjufi3n67l5">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="PriceFlightsDelegate"/>
+    </node>
+</nodeSet>

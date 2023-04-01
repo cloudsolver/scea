@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmje1zdt9qz-ylxkg8">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="option.layout.recursive = false&#xA;"/>
+        <reference referencedUin="design:node:::N12t93se1zdu227-kg409k">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,20,128,87"/>
+        </reference>
+    </view>
+    <node uin="N12t93se1zdu227-kg409k">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="PricingProcessor"/>
+        <property name="Alias" value="PricingProcessor"/>
+        <link uin="Lys2gw5e1ze4nko-ehgvcl">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@label" value="finds"/>
+            <participant referencedUin="design:node:::N12t93se1zdu227-kg409k" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxxj5rz0-wei79p" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5e1ze51txxl6jjy">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@label" value="calculates segment price"/>
+            <participant referencedUin="design:node:::N12t93se1zdu227-kg409k" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxdrgjkz-mvgrhy" role="Supplier"/>
+        </link>
+        <node uin="L-ae2kl5e1ze5oqg7xtg49">
+            <property name="$name" value="priceItinerary"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <link uin="Lys2gw5e1ze61qcdpajnc">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@label" value="prices itinerary"/>
+            <participant referencedUin="design:node:::N12t93se1zdu227-kg409k" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxdrg4bk-fto1a5" role="Supplier"/>
+        </link>
+        <node uin="L-ae2kl5e1ze6kvn-ksa12i">
+            <property name="$name" value="calculateSegmentPrice"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <node uin="L-ae2kl5e1ze7be3-bxafmi">
+            <property name="$name" value="findPriceBySeat"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <link uin="Lys2gw5e1ze7ror-1w1pnn">
+            <property name="$metaclass" value="Dependency Link"/>
+            <participant referencedUin="design:node:::N12t93se1zdu227-kg409k" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxxgok00bw6vwc" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmje1jpki27s4nguz">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="option.layout.recursive = false &#xA;"/>
+        <reference referencedUin="design:node:::N12t93se1jpki27-n2unvb">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,20,88,70"/>
+        </reference>
+    </view>
+    <node uin="N12t93se1jpki27-n2unvb">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SendMailHelper"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmje1jpki27s4nguz"/>
+        <property name="Alias" value="SendMailHelper"/>
+        <node uin="N-ae2kl5e1jpki27-kbn1ur">
+            <property name="$name" value="sendMail"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+    </node>
+</nodeSet>

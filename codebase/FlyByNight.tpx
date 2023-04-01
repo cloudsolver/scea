@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Together XML Project-->
+<project>
+  <property category="config" name="favorites_browser.favorites" value="design:node:::N12t93sdxnn32chwp00r5,design:node:::N12t93sdy690zba8kvskm,design:node:::N12t93sdz2qikng-doqszh,design:node:::N12t93sdz2q0buc-6jwa12,design:node:::N12t93sdz2pzb5k-xf3hmf,design:node:::N12t93sdysvmi0l-yscjwe,design:node:::N12t93sdz2teufd716zhr,uml:package:FlyByNight:src:com.fbn.nucleus.web,uml:package:FlyByNight:src:com.fbn.reservation"/>
+  <property category="config" name="option.confirmation.shortcut.delete.choice" value="shortcut"/>
+  <property category="config" name="option.links.bannedDestination.1" value=""/>
+  <property category="config" name="options.umlVersion" value="14"/>
+  <property category="config" name="search.diagram.case.sensitive" value=" "/>
+  <property category="config" name="search.diagram.match" value="1"/>
+  <property category="config" name="search.diagram.scope" value="1"/>
+  <property category="config" name="search.diagram.text.to.find" value="Transmaster*&#127;Transmaster&#127;ItineraryPriceDTO&#127;AwardMilesProcessor&#127;TransmasterProcessor&#127;CustomerFacade&#127;SearchProcessor&#127;Search&#127;shop"/>
+  <property category="personality" name="personality" value="com.togethersoft.modules.primetimebridge.personality.UML20Personality "/>
+  <property category="sys" name="DefaultDiagram" value="diagrams"/>
+  <property category="sys" name="Diagram" value="diagrams"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <property category="together" name="language" value="design"/>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxdv5paojjdeao">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:view:::Vuobnmjdxdwd4ygp1joz9">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="86,1,96,109"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxwcn4og-bxovdv">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="303,88,99,65"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxdwciuv8qgt0b">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="96,88,80,76"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxwcnh6t-z5wz87">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="185,1,80,64"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxdwdbhsat248g">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="185,88,80,64"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxwcva5d-gqgcn1">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="0,20,80,64"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdxwcrqi5-qsylk6">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="303,1,80,64"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmje1zdv095-svctrq">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="303,172,80,64"/>
+        </reference>
+    </view>
+</nodeSet>

@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V-h0xtcae13ssnqf2wsd1x">
+        <property name="$metaclass" value="Component Diagram"/>
+        <property name="$description" value=""/>
+        <property name="@__options" value="zoomFactor = 1.0&#xA;toolbar.group.Tools.expanded = true&#xA;toolbar.buttonRunCount = 2&#xA;toolbar.group.#DEFAULT.expanded = true&#xA;toolbar.group.note.expanded = true&#xA;scrollX = 0&#xA;scrollY = 415&#xA;"/>
+        <property name="@stereotype" value="interaction"/>
+        <reference referencedUin="design:node:::N1g64ye20jmen9rhzo43">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="bounds" value="838,614,189,58"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we20jnfm25se126:N1g64ye20jmen9rhzo43">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="863,672"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="863,726"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye20lw4xuveufkw">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="bounds" value="471,1053,215,43"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we20m08hxvv11lr:N1g64ye20lw4xuveufkw">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="686,1076"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="714,1076"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N9zn4d9e1u8r35g-aa08ln">
+            <property name="$shortcutReference" value=""/>
+            <property name="@__referenceContsraints" value="shiftX=5,shiftY=7"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="1041,834,197,50"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::L-mjfarme1u8r35g-3wgspg:N9zn4d9e1u8r35g-aa08ln">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="1041,845"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1014,845"/>
+            </reference>
+            <reference referencedUin="design:link:::L-mjfarme1u8r35g-pa0tyb:N9zn4d9e1u8r35g-aa08ln">
+                <property name="sourceAnchor" value="1392,303"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1340,303"/>
+            </reference>
+            <reference referencedUin="design:link:::Lys2gw5e1u8ry7q-psdtmv:N9zn4d9e1u8r35g-aa08ln">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="1139,884"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1139,925"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-t1cvjle1u7ebe6-ofjt5">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="1039,651,204,67"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye20jpmit-opabz8">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="bounds" value="260,535,164,77"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we20jre8e8tnbt5:N1g64ye20jpmit-opabz8">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="424,573"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="449,573"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-t1cvjle1jqejfs-ax5d8">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="968,13,173,131"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lys2gw5e1u88zt1-lbaibi:N-t1cvjle1jqejfs-ax5d8">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="1028,144"/>
+                <property name="bendpoints" value="1028,205,578,207"/>
+                <property name="targetAnchor" value="578,404"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1jqetijy9ucz4:N-t1cvjle1jqejfs-ax5d8">
+                <property name="@__referenceContsraints" value="shiftX=20,shiftY=15"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="20,46,142,50"/>
+                <property name="bounds_setted_by_user" value="true"/>
+                <reference referencedUin="design:link:::L-mjfarme1jqetij-5bcem2:N9zn4d9e1jqetijy9ucz4:N-t1cvjle1jqejfs-ax5d8">
+                    <property name="@location_set_by_user" value="false"/>
+                    <property name="sourceAnchor" value="988,87"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="939,87"/>
+                </reference>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye20lqwm361uh60">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="bounds" value="288,126,228,73"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="design:node:::N-t1cvjle1jpo6o0mnk860">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="706,15,163,179"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:node:::N9zn4d9e1u6o2m8puaacz:N-t1cvjle1jpo6o0mnk860">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="@__referenceContsraints" value="shiftX=5,shiftY=70"/>
+                <property name="bounds" value="5,112,153,62"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:link:::Lys2gw5e1u88qo8tnkw7j:N-t1cvjle1jpo6o0mnk860">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="706,150"/>
+                <property name="bendpoints" value="553,150"/>
+                <property name="targetAnchor" value="553,404"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1jqdvcpgemub3:N-t1cvjle1jpo6o0mnk860">
+                <property name="@__referenceContsraints" value="shiftX=13,shiftY=10"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="13,52,142,50"/>
+                <property name="bounds_setted_by_user" value="true"/>
+                <reference referencedUin="design:link:::Lys2gw5e1jqdvcp-ri7qyw:N9zn4d9e1jqdvcpgemub3:N-t1cvjle1jpo6o0mnk860">
+                    <property name="@location_set_by_user" value="false"/>
+                    <property name="sourceAnchor" value="861,87"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="919,87"/>
+                </reference>
+                <reference referencedUin="design:link:::L-mjfarme1jqdvcp9masso:N9zn4d9e1jqdvcpgemub3:N-t1cvjle1jpo6o0mnk860">
+                    <property name="@location_set_by_user" value="false"/>
+                    <property name="sourceAnchor" value="719,83"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="670,83"/>
+                </reference>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-tkr3l3e13st4wjt6y4vf">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="650,73,20,20"/>
+        </reference>
+        <reference referencedUin="design:node:::N-t1cvjle1jpof2y4l0g4c">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="706,214,387,381"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:node:::N9zn4d9e1u5rhoi-limcsf:N-t1cvjle1jpof2y4l0g4c">
+                <property name="@__referenceContsraints" value="shiftX=118,shiftY=279"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="118,321,162,55"/>
+                <property name="bounds_setted_by_user" value="true"/>
+                <reference referencedUin="design:link:::Lys2gw5e1u5rhoi7peglq:N9zn4d9e1u5rhoi-limcsf:N-t1cvjle1jpof2y4l0g4c">
+                    <property name="sourceAnchor" value="1192,301"/>
+                    <property name="bendpoints" value="1192,92"/>
+                    <property name="targetAnchor" value="997,92"/>
+                    <property name="bounds_setted_by_user" value="true"/>
+                </reference>
+            </reference>
+            <reference referencedUin="design:link:::Lys2gw5e1u5tbnv-c8qc45:N-t1cvjle1jpof2y4l0g4c">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="706,489"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="601,489"/>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1u5rhpcmrweb8:N-t1cvjle1jpof2y4l0g4c">
+                <property name="@__referenceContsraints" value="shiftX=219,shiftY=78"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="219,120,162,56"/>
+                <property name="bounds_setted_by_user" value="true"/>
+                <reference referencedUin="design:link:::Lys2gw5e1u5rhpc-bi8vxf:N9zn4d9e1u5rhpcmrweb8:N-t1cvjle1jpof2y4l0g4c">
+                    <property name="sourceAnchor" value="1195,491"/>
+                    <property name="bendpoints" value="1195,533"/>
+                    <property name="targetAnchor" value="1013,533"/>
+                    <property name="bounds_setted_by_user" value="true"/>
+                </reference>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1u5rhos-3fqd1k:N-t1cvjle1jpof2y4l0g4c">
+                <property name="@__referenceContsraints" value="shiftX=11,shiftY=164"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="11,206,186,50"/>
+                <property name="bounds_setted_by_user" value="true"/>
+                <reference referencedUin="design:link:::Lys2gw5e1u5rhosldnffw:N9zn4d9e1u5rhos-3fqd1k:N-t1cvjle1jpof2y4l0g4c">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="863,470"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="863,535"/>
+                </reference>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c">
+                <property name="@__referenceContsraints" value="shiftX=10,shiftY=11"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="10,53,195,53"/>
+                <property name="bounds_setted_by_user" value="true"/>
+                <reference referencedUin="design:link:::Lys2gw5e1u5rhosp4odb7:N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="810,320"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="810,420"/>
+                </reference>
+                <reference referencedUin="design:link:::Lys2gw5e1u5rhos-hsdgy:N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c">
+                    <property name="sourceAnchor" value="823,318"/>
+                    <property name="bendpoints" value="792,318,792,89"/>
+                    <property name="targetAnchor" value="829,89"/>
+                    <property name="bounds_setted_by_user" value="true"/>
+                </reference>
+                <reference referencedUin="design:link:::Lys2gw5e1u5rhos-1zuynm:N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="838,320"/>
+                    <property name="bendpoints" value="838,408,1048,408"/>
+                    <property name="targetAnchor" value="1048,417"/>
+                    <property name="bounds_setted_by_user" value="true"/>
+                </reference>
+                <reference referencedUin="design:link:::L-mjfarme1u5t4enysn4nh:N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c">
+                    <property name="@location_set_by_user" value="false"/>
+                    <property name="sourceAnchor" value="716,290"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="664,290"/>
+                </reference>
+                <reference referencedUin="design:link:::Lys2gw5e1u5rhos-ejzmfs:N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="911,298"/>
+                    <property name="bendpoints" value="1021,298"/>
+                    <property name="targetAnchor" value="1021,334"/>
+                    <property name="bounds_setted_by_user" value="true"/>
+                </reference>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1u5rho8rv3ybq:N-t1cvjle1jpof2y4l0g4c">
+                <property name="@__referenceContsraints" value="shiftX=202,shiftY=161"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="202,203,173,50"/>
+                <property name="bounds_setted_by_user" value="true"/>
+                <reference referencedUin="design:link:::Lys2gw5e1u5rho8-h9ix9f:N9zn4d9e1u5rho8rv3ybq:N-t1cvjle1jpof2y4l0g4c">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="947,467"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="947,535"/>
+                </reference>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N9zn4d9e1u8qwlk-d0lblq">
+            <property name="$shortcutReference" value=""/>
+            <property name="@__referenceContsraints" value="shiftX=5,shiftY=5"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="1037,764,203,50"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::L-mjfarme1u8qwlk-qdnn3z:N9zn4d9e1u8qwlk-d0lblq">
+                <property name="sourceAnchor" value="1392,156"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1343,156"/>
+            </reference>
+            <reference referencedUin="design:link:::Lys2gw5e1u8s4iq-6qgh6w:N9zn4d9e1u8qwlk-d0lblq">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="1139,764"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1139,718"/>
+            </reference>
+            <reference referencedUin="design:link:::L-mjfarme1u8qwlk56rz89:N9zn4d9e1u8qwlk-d0lblq">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="1037,793"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1014,793"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye20jiwwh-ipo1jf">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="bounds" value="1272,710,203,66"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we20jl65igwyu1l:N1g64ye20jiwwh-ipo1jf">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="1272,770"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1240,770"/>
+            </reference>
+            <reference referencedUin="design:link:::Lr7pm3we23eumfh-by4ws6:N1g64ye20jiwwh-ipo1jf">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="1272,714"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1243,714"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-tkr3l3e13sy4fg-9p67s7">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="666,731,20,20"/>
+        </reference>
+        <reference referencedUin="design:node:::N-t1cvjle1u5lrkycy26us">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="449,384,152,237"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:node:::N9zn4d9e1u89zdh-vbl9rg:N-t1cvjle1u5lrkycy26us">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="@__referenceContsraints" value="shiftX=5,shiftY=68"/>
+                <property name="bounds" value="5,99,142,52"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1u5my23uqjeju:N-t1cvjle1u5lrkycy26us">
+                <property name="@__referenceContsraints" value="shiftX=5,shiftY=5"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="5,36,142,50"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1xzilp3-alto66:N-t1cvjle1u5lrkycy26us">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="@__referenceContsraints" value="shiftX=5,shiftY=130"/>
+                <property name="bounds" value="5,161,142,54"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye1u9cfpb8vzp0p">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="@fontName" value="Garamond"/>
+            <property name="@fontSize" value="14"/>
+            <property name="bounds" value="14,1001,306,132"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="design:node:::N-tkr3l3e13t3w4lhouwok">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="919,77,20,20"/>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye20low16-hi9i04">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="bounds" value="1127,284,192,102"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we2182ejusc3soy:N1g64ye20low16-hi9i04">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="1127,335"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1093,335"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-tkr3l3e13tfwl3-4tkoe8">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="994,835,20,20"/>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye1u9d0bhkvr2p2">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="bounds" value="3,149,149,195"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we1u9du4z-utekzu:N1g64ye1u9d0bhkvr2p2">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="94,344"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="94,385"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-tkr3l3e13vk2qlht17kl">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="644,280,20,20"/>
+        </reference>
+        <reference referencedUin="design:node:::N-tkr3l3e15268yjiu9k7f">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="994,783,20,20"/>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye23euupewjr7r7">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="bounds" value="1289,881,183,62"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we23ewvgq-choti3:N1g64ye23euupewjr7r7">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="1289,924"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1247,924"/>
+            </reference>
+            <reference referencedUin="design:link:::Lr7pm3we23ewrda7auh4m:N1g64ye23euupewjr7r7">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="1289,882"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1238,882"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-t1cvjle1jpm198-exzpih">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="710,661,222,448"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lys2gw5e1u642qw1rwdeo:N-t1cvjle1jpm198-exzpih">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="728,661"/>
+                <property name="bendpoints" value="728,606"/>
+                <property name="targetAnchor" value="601,606"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1jpncm6-n4kewl:N-t1cvjle1jpm198-exzpih">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="@__referenceContsraints" value="shiftX=5,shiftY=362"/>
+                <property name="bounds" value="5,393,188,50"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="@__referenceContsraints" value="shiftX=37,shiftY=23"/>
+                <property name="bounds" value="37,65,142,50"/>
+                <property name="bounds_setted_by_user" value="true"/>
+                <reference referencedUin="design:link:::Lys2gw5e1u6ihrk8y8w6e:N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="858,776"/>
+                    <property name="bendpoints" value="858,843"/>
+                    <property name="targetAnchor" value="994,844"/>
+                    <property name="bounds_setted_by_user" value="true"/>
+                </reference>
+                <reference referencedUin="design:link:::Lys2gw5e1u6idto-mi757:N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="866,776"/>
+                    <property name="bendpoints" value="866,793"/>
+                    <property name="targetAnchor" value="994,793"/>
+                    <property name="bounds_setted_by_user" value="true"/>
+                </reference>
+                <reference referencedUin="design:link:::L-mjfarme1u7cgar4612vn:N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="747,741"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="686,741"/>
+                </reference>
+                <reference referencedUin="design:link:::Lys2gw5e218hzcb-rz97r0:N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih">
+                    <property name="@location_set_by_user" value="false"/>
+                    <property name="sourceAnchor" value="818,776"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="818,864"/>
+                </reference>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih">
+                <property name="@__referenceContsraints" value="shiftX=26,shiftY=161"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="26,203,177,50"/>
+                <property name="bounds_setted_by_user" value="true"/>
+                <reference referencedUin="design:link:::Lys2gw5e20lyrmnpkqs45:N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="849,914"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="849,994"/>
+                </reference>
+                <reference referencedUin="design:link:::Lys2gw5e1jpm9a91qphfg:N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="913,883"/>
+                    <property name="bendpoints" value="1003,883"/>
+                    <property name="targetAnchor" value="1003,855"/>
+                    <property name="bounds_setted_by_user" value="true"/>
+                </reference>
+                <reference referencedUin="design:link:::Lys2gw5e1u6jiiug31x1j:N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="763,914"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="763,1054"/>
+                </reference>
+                <reference referencedUin="design:link:::Lys2gw5e1jpm9a9-1kr19l:N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="896,864"/>
+                    <property name="bendpoints" value="896,825,1003,825"/>
+                    <property name="targetAnchor" value="1003,803"/>
+                    <property name="bounds_setted_by_user" value="true"/>
+                </reference>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e20lyoc5-hox5sa:N-t1cvjle1jpm198-exzpih">
+                <property name="@__referenceContsraints" value="shiftX=75,shiftY=291"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="75,333,142,50"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-t1cvjle1u917l6-bqo8rb">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="36,365,165,188"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lys2gw5e219b5aa-w0euz6:N-t1cvjle1u917l6-bqo8rb">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="193,553"/>
+                <property name="bendpoints" value="193,740"/>
+                <property name="targetAnchor" value="666,739"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:link:::Lys2gw5e1xzkwku-yxm3u3:N-t1cvjle1u917l6-bqo8rb">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="201,468"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="449,468"/>
+            </reference>
+            <reference referencedUin="design:node:::N-t1cvjle226hcq5-exta64:N-t1cvjle1u917l6-bqo8rb">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="@__referenceContsraints" value="shiftX=20,shiftY=76"/>
+                <property name="bounds" value="20,118,100,65"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:link:::Lys2gw5e1xzkmal-6xrmgh:N-t1cvjle1u917l6-bqo8rb">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="201,482"/>
+                <property name="bendpoints" value="259,482,260,83"/>
+                <property name="targetAnchor" value="650,83"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:link:::Lys2gw5e1xzkq1sw97uxs:N-t1cvjle1u917l6-bqo8rb">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="201,491"/>
+                <property name="bendpoints" value="296,491,296,291"/>
+                <property name="targetAnchor" value="644,290"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:link:::Lys2gw5e20j14jvhu5hq6:N-t1cvjle1u917l6-bqo8rb">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="175,553"/>
+                <property name="bendpoints" value="175,848"/>
+                <property name="targetAnchor" value="402,847"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="design:node:::N-t1cvjle226go59-vpo7ef:N-t1cvjle1u917l6-bqo8rb">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="@__referenceContsraints" value="shiftX=13,shiftY=5"/>
+                <property name="bounds" value="13,47,114,59"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-t1cvjle1b8u2eg-3yvxmd">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="448,794,231,107"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lys2gw5e1b8w9b7jrmq5a:N-t1cvjle1b8u2eg-3yvxmd">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="525,814"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="525,621"/>
+            </reference>
+            <reference referencedUin="design:node:::N9zn4d9e1b8v0go-90ypy7:N-t1cvjle1b8u2eg-3yvxmd">
+                <property name="@__referenceContsraints" value="shiftX=33,shiftY=6"/>
+                <property name="@location_set_by_user" value="true"/>
+                <property name="bounds" value="33,45,193,52"/>
+                <property name="bounds_setted_by_user" value="true"/>
+                <reference referencedUin="design:link:::L-mjfarme1b8v0go-c4fjh6:N9zn4d9e1b8v0go-90ypy7:N-t1cvjle1b8u2eg-3yvxmd">
+                    <property name="@location_set_by_user" value="true"/>
+                    <property name="sourceAnchor" value="481,849"/>
+                    <property name="bendpoints" value=""/>
+                    <property name="targetAnchor" value="422,849"/>
+                </reference>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ye1u9e3nygla6dk">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="background_color" value="255,255,204"/>
+            <property name="bounds" value="5,575,160,136"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::Lr7pm3we1u9escga871a1:N1g64ye1u9e3nygla6dk">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="100,575"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="100,553"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-tkr3l3e13suix67qkwaj">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="402,839,20,20"/>
+        </reference>
+        <reference referencedUin="design:node:::N-t1cvjle1u7ebdw-psnlvo">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="1036,905,211,69"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u5tbnv-c8qc45:N-t1cvjle1jpof2y4l0g4c">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="622,475,62,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1b8w9b7jrmq5a:N-t1cvjle1b8u2eg-3yvxmd">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.19170984455958548"/>
+            <property name="bounds" value="528,777,62,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u88zt1-lbaibi:N-t1cvjle1jqejfs-ax5d8">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="642,193,62,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u8ry7q-psdtmv:N9zn4d9e1u8r35g-aa08ln">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="1142,887,53,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1xzkmal-6xrmgh:N-t1cvjle1u917l6-bqo8rb">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.34710743801652894"/>
+            <property name="bounds" value="263,246,49,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u642qw1rwdeo:N-t1cvjle1jpm198-exzpih">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="633,592,62,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u6idto-mi757:N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="906,779,49,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u88qo8tnkw7j:N-t1cvjle1jpo6o0mnk860">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.18673218673218672"/>
+            <property name="bounds" value="630,136,62,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u5rho8-h9ix9f:N9zn4d9e1u5rho8rv3ybq:N-t1cvjle1jpof2y4l0g4c">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.058823529411764705"/>
+            <property name="bounds" value="950,471,50,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e20j14jvhu5hq6:N-t1cvjle1u917l6-bqo8rb">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.5483870967741935"/>
+            <property name="bounds" value="183,834,49,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1xzkq1sw97uxs:N-t1cvjle1u917l6-bqo8rb">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="299,386,49,11"/>
+        </reference>
+        <reference referencedUin="label:$name:design:node:::N-tkr3l3e15268yjiu9k7f">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="964,763,89,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e219b5aa-w0euz6:N-t1cvjle1u917l6-bqo8rb">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.26132930513595165"/>
+            <property name="bounds" value="207,725,49,11"/>
+        </reference>
+        <reference referencedUin="label:$name:design:node:::N-tkr3l3e13suix67qkwaj">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="363,867,78,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1jqdvcp-ri7qyw:N9zn4d9e1jqdvcpgemub3:N-t1cvjle1jpo6o0mnk860">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="865,73,50,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1jpm9a9-1kr19l:N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="925,811,49,11"/>
+        </reference>
+        <reference referencedUin="label:$name:design:node:::N-tkr3l3e13sy4fg-9p67s7">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="621,716,76,11"/>
+        </reference>
+        <reference referencedUin="label:$name:design:node:::N-tkr3l3e13t3w4lhouwok">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="894,105,65,11"/>
+        </reference>
+        <reference referencedUin="label:$name:design:node:::N-tkr3l3e13st4wjt6y4vf">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="625,58,74,11"/>
+        </reference>
+        <reference referencedUin="label:$name:design:node:::N-tkr3l3e13tfwl3-4tkoe8">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="961,827,87,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype`:1:design:link:::Lys2gw5e1u8s4iq-6qgh6w:N9zn4d9e1u8qwlk-d0lblq">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="1142,705,55,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1jpm9a91qphfg:N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="934,869,49,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e20lyrmnpkqs45:N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="852,949,49,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u6jiiug31x1j:N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.20714285714285716"/>
+            <property name="bounds" value="766,943,49,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u8s4iq-6qgh6w:N9zn4d9e1u8qwlk-d0lblq">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="1142,749,53,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1xzkwku-yxm3u3:N-t1cvjle1u917l6-bqo8rb">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.6048387096774194"/>
+            <property name="bounds" value="351,454,62,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u5rhos-1zuynm:N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.5064935064935064"/>
+            <property name="bounds" value="905,394,50,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e218hzcb-rz97r0:N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.32954545454545453"/>
+            <property name="bounds" value="751,805,55,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u6ihrk8y8w6e:N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.09239130434782608"/>
+            <property name="bounds" value="861,794,49,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u5rhos-ejzmfs:N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="941,284,50,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u5rhosldnffw:N9zn4d9e1u5rhos-3fqd1k:N-t1cvjle1jpof2y4l0g4c">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.05000000074505806"/>
+            <property name="bounds" value="866,468,50,11"/>
+        </reference>
+        <reference referencedUin="label:$name:design:node:::N-tkr3l3e13vk2qlht17kl">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="617,308,80,11"/>
+        </reference>
+        <reference referencedUin="label:stereotype:design:link:::Lys2gw5e1u5rhosp4odb7:N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="@__referenceContsraints" value="weight=0.08"/>
+            <property name="bounds" value="756,328,50,11"/>
+        </reference>
+    </view>
+    <node uin="N-tkr3l3e13st4wjt6y4vf">
+        <property name="$metaclass" value="Component"/>
+        <property name="@stereotype" value="interface"/>
+        <property name="$name" value="ItineraryFacade"/>
+    </node>
+    <node uin="N-tkr3l3e13suix67qkwaj">
+        <property name="$metaclass" value="Component"/>
+        <property name="@stereotype" value="interface"/>
+        <property name="$name" value="CustomerFacade"/>
+    </node>
+    <node uin="N-tkr3l3e13sy4fg-9p67s7">
+        <property name="$metaclass" value="Component"/>
+        <property name="@stereotype" value="interface"/>
+        <property name="$name" value="PaymentFacade"/>
+    </node>
+    <node uin="N-tkr3l3e13t3w4lhouwok">
+        <property name="$metaclass" value="Component"/>
+        <property name="@stereotype" value="interface"/>
+        <property name="$name" value="PricingFacade"/>
+    </node>
+    <node uin="N-tkr3l3e13tfwl3-4tkoe8">
+        <property name="$metaclass" value="Component"/>
+        <property name="@stereotype" value="interface"/>
+        <property name="$name" value="AwardMilesFacade"/>
+    </node>
+    <node uin="N-tkr3l3e13vk2qlht17kl">
+        <property name="$metaclass" value="Component"/>
+        <property name="@stereotype" value="interface"/>
+        <property name="$name" value="InventoryFacade"/>
+    </node>
+    <node uin="N-tkr3l3e15268yjiu9k7f">
+        <property name="$metaclass" value="Component"/>
+        <property name="@stereotype" value="interface"/>
+        <property name="$name" value="TransMasterFacade"/>
+    </node>
+    <node uin="N-t1cvjle1b8u2eg-3yvxmd">
+        <property name="$metaclass" value="Subsystem"/>
+        <property name="$name" value="Customer"/>
+        <property name="@stereotype" value="subsystem"/>
+        <node uin="N9zn4d9e1b8v0go-90ypy7">
+            <property name="$metaclass" value="Component"/>
+            <property name="$name" value="CustomerProcessor"/>
+            <property name="@stereotype" value="LocalStatelessSessionBean"/>
+            <link uin="L-mjfarme1b8v0go-c4fjh6">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="supports"/>
+                <participant referencedUin="design:node:::N9zn4d9e1b8v0go-90ypy7:N-t1cvjle1b8u2eg-3yvxmd" role="Client"/>
+                <participant referencedUin="design:node:::N-tkr3l3e13suix67qkwaj" role="Supplier"/>
+            </link>
+        </node>
+        <link uin="Lys2gw5e1b8w9b7jrmq5a">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="access"/>
+            <participant referencedUin="design:node:::N-t1cvjle1b8u2eg-3yvxmd" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u5lrkycy26us" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-t1cvjle1jpm198-exzpih">
+        <property name="$metaclass" value="Subsystem"/>
+        <property name="$name" value="Payment"/>
+        <property name="@stereotype" value="subsystem"/>
+        <node uin="N9zn4d9e1jpm9a9jo326e">
+            <property name="$metaclass" value="Component"/>
+            <property name="$name" value="PaymentListener"/>
+            <property name="@stereotype" value="MessageDrivenBean"/>
+            <link uin="Lys2gw5e1jpm9a91qphfg">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="call"/>
+                <participant referencedUin="design:node:::N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih" role="Client"/>
+                <participant referencedUin="design:node:::N-tkr3l3e13tfwl3-4tkoe8" role="Supplier"/>
+            </link>
+            <link uin="Lys2gw5e1jpm9a9-1kr19l">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="call"/>
+                <participant referencedUin="design:node:::N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih" role="Client"/>
+                <participant referencedUin="design:node:::N-tkr3l3e15268yjiu9k7f" role="Supplier"/>
+            </link>
+            <link uin="Lys2gw5e1u6jiiug31x1j">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="call"/>
+                <participant referencedUin="design:node:::N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e1jpncm6-n4kewl:N-t1cvjle1jpm198-exzpih" role="Supplier"/>
+            </link>
+            <link uin="Lys2gw5e20lyrmnpkqs45">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="call"/>
+                <participant referencedUin="design:node:::N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e20lyoc5-hox5sa:N-t1cvjle1jpm198-exzpih" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N9zn4d9e1jpncm6-n4kewl">
+            <property name="$name" value="PaymentProcessor"/>
+            <property name="$metaclass" value="Component"/>
+            <property name="@stereotype" value="LocalStatelessSessionBean"/>
+        </node>
+        <link uin="Lys2gw5e1u642qw1rwdeo">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="access"/>
+            <participant referencedUin="design:node:::N-t1cvjle1jpm198-exzpih" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u5lrkycy26us" role="Supplier"/>
+        </link>
+        <node uin="N9zn4d9e1u6g6ltiktun8">
+            <property name="$name" value="PaymentHelper"/>
+            <property name="$metaclass" value="Component"/>
+            <link uin="Lys2gw5e1u6idto-mi757">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="call"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih" role="Client"/>
+                <participant referencedUin="design:node:::N-tkr3l3e15268yjiu9k7f" role="Supplier"/>
+            </link>
+            <link uin="Lys2gw5e1u6ihrk8y8w6e">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="call"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih" role="Client"/>
+                <participant referencedUin="design:node:::N-tkr3l3e13tfwl3-4tkoe8" role="Supplier"/>
+            </link>
+            <link uin="L-mjfarme1u7cgar4612vn">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="supports"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih" role="Client"/>
+                <participant referencedUin="design:node:::N-tkr3l3e13sy4fg-9p67s7" role="Supplier"/>
+            </link>
+            <link uin="Lys2gw5e218hzcb-rz97r0">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="send"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e1jpm9a9jo326e:N-t1cvjle1jpm198-exzpih" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N9zn4d9e20lyoc5-hox5sa">
+            <property name="$name" value="SendMailHelper"/>
+            <property name="$metaclass" value="Component"/>
+        </node>
+    </node>
+    <node uin="N-t1cvjle1jpo6o0mnk860">
+        <property name="$metaclass" value="Subsystem"/>
+        <property name="$name" value="Itinerary"/>
+        <property name="@stereotype" value="subsystem"/>
+        <node uin="N9zn4d9e1jqdvcpgemub3">
+            <property name="$metaclass" value="Component"/>
+            <property name="$name" value="ItineraryProcessor"/>
+            <property name="@stereotype" value="LocalStatelessSessionBean"/>
+            <link uin="L-mjfarme1jqdvcp9masso">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="supports"/>
+                <participant referencedUin="design:node:::N9zn4d9e1jqdvcpgemub3:N-t1cvjle1jpo6o0mnk860" role="Client"/>
+                <participant referencedUin="design:node:::N-tkr3l3e13st4wjt6y4vf" role="Supplier"/>
+            </link>
+            <link uin="Lys2gw5e1jqdvcp-ri7qyw">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="use"/>
+                <participant referencedUin="design:node:::N9zn4d9e1jqdvcpgemub3:N-t1cvjle1jpo6o0mnk860" role="Client"/>
+                <participant referencedUin="design:node:::N-tkr3l3e13t3w4lhouwok" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N9zn4d9e1u6o2m8puaacz">
+            <property name="$name" value="ItineraryCart"/>
+            <property name="$metaclass" value="Component"/>
+            <property name="@stereotype" value="StatefulSessionBean"/>
+        </node>
+        <link uin="Lys2gw5e1u88qo8tnkw7j">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="access"/>
+            <participant referencedUin="design:node:::N-t1cvjle1jpo6o0mnk860" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u5lrkycy26us" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-t1cvjle1jpof2y4l0g4c">
+        <property name="$metaclass" value="Subsystem"/>
+        <property name="$name" value="Inventory"/>
+        <property name="@stereotype" value="subsystem"/>
+        <node uin="N9zn4d9e1u5rho8rv3ybq">
+            <property name="$metaclass" value="Component"/>
+            <property name="$name" value="ArrivalLegsValueListHandler"/>
+            <property name="@stereotype" value="ValueListHandler"/>
+            <link uin="Lys2gw5e1u5rho8-h9ix9f">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="use"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rho8rv3ybq:N-t1cvjle1jpof2y4l0g4c" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhoi-limcsf:N-t1cvjle1jpof2y4l0g4c" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N9zn4d9e1u5rhoi-limcsf">
+            <property name="$metaclass" value="Component"/>
+            <property name="$name" value="SearchFlightLegsDAO"/>
+            <property name="@stereotype" value="DataAccessObject"/>
+            <link uin="Lys2gw5e1u5rhoi7peglq">
+                <property name="$metaclass" value="Dependency Link"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhoi-limcsf:N-t1cvjle1jpof2y4l0g4c" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e1k4q6ax-qbc38q" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N9zn4d9e1u5rhos-3fqd1k">
+            <property name="$metaclass" value="Component"/>
+            <property name="$name" value="DepartureLegsValueListHandler"/>
+            <property name="@stereotype" value="ValueListHandler"/>
+            <link uin="Lys2gw5e1u5rhosldnffw">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="use"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhos-3fqd1k:N-t1cvjle1jpof2y4l0g4c" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhoi-limcsf:N-t1cvjle1jpof2y4l0g4c" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N9zn4d9e1u5rhos-a7uyey">
+            <property name="$metaclass" value="Component"/>
+            <property name="$name" value="InventorySearchProcessor"/>
+            <property name="@stereotype" value="LocalStatelessSessionBean"/>
+            <link uin="Lys2gw5e1u5rhos-1zuynm">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="use"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rho8rv3ybq:N-t1cvjle1jpof2y4l0g4c" role="Supplier"/>
+            </link>
+            <link uin="Lys2gw5e1u5rhosp4odb7">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="use"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhos-3fqd1k:N-t1cvjle1jpof2y4l0g4c" role="Supplier"/>
+            </link>
+            <link uin="Lys2gw5e1u5rhos-hsdgy">
+                <property name="$metaclass" value="Dependency Link"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e1k4q6ax-qbc38q" role="Supplier"/>
+            </link>
+            <link uin="Lys2gw5e1u5rhos-ejzmfs">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="use"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhpcmrweb8:N-t1cvjle1jpof2y4l0g4c" role="Supplier"/>
+            </link>
+            <link uin="L-mjfarme1u5t4enysn4nh">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="supports"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhos-a7uyey:N-t1cvjle1jpof2y4l0g4c" role="Client"/>
+                <participant referencedUin="design:node:::N-tkr3l3e13vk2qlht17kl" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N9zn4d9e1u5rhpcmrweb8">
+            <property name="$metaclass" value="Component"/>
+            <property name="$name" value="SeatSearchDAO"/>
+            <property name="@stereotype" value="DataAccessObject"/>
+            <link uin="Lys2gw5e1u5rhpc-bi8vxf">
+                <property name="$metaclass" value="Dependency Link"/>
+                <participant referencedUin="design:node:::N9zn4d9e1u5rhpcmrweb8:N-t1cvjle1jpof2y4l0g4c" role="Client"/>
+                <participant referencedUin="design:node:::N9zn4d9e1ptrvpbt1liab" role="Supplier"/>
+            </link>
+        </node>
+        <link uin="Lys2gw5e1u5tbnv-c8qc45">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="access"/>
+            <participant referencedUin="design:node:::N-t1cvjle1jpof2y4l0g4c" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u5lrkycy26us" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-t1cvjle1jqejfs-ax5d8">
+        <property name="$metaclass" value="Subsystem"/>
+        <property name="$name" value="Pricing"/>
+        <node uin="N9zn4d9e1jqetijy9ucz4">
+            <property name="$metaclass" value="Component"/>
+            <property name="$name" value="PricingProcessor"/>
+            <link uin="L-mjfarme1jqetij-5bcem2">
+                <property name="$metaclass" value="Dependency Link"/>
+                <property name="@stereotype" value="supports"/>
+                <participant referencedUin="design:node:::N9zn4d9e1jqetijy9ucz4:N-t1cvjle1jqejfs-ax5d8" role="Client"/>
+                <participant referencedUin="design:node:::N-tkr3l3e13t3w4lhouwok" role="Supplier"/>
+            </link>
+        </node>
+        <link uin="Lys2gw5e1u88zt1-lbaibi">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="access"/>
+            <participant referencedUin="design:node:::N-t1cvjle1jqejfs-ax5d8" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u5lrkycy26us" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-t1cvjle1u5lrkycy26us">
+        <property name="$metaclass" value="Subsystem"/>
+        <property name="$name" value="Nucleus"/>
+        <node uin="N9zn4d9e1u5my23uqjeju">
+            <property name="$metaclass" value="Component"/>
+            <property name="$name" value="ServiceLocator"/>
+            <property name="@stereotype" value="singleton"/>
+        </node>
+        <node uin="N9zn4d9e1u89zdh-vbl9rg">
+            <property name="$name" value="ClientContext"/>
+            <property name="$metaclass" value="Component"/>
+            <property name="@stereotype" value="serializable"/>
+        </node>
+        <node uin="N9zn4d9e1xzilp3-alto66">
+            <property name="$name" value="SecurityUtils"/>
+            <property name="$metaclass" value="Component"/>
+            <property name="@stereotype" value="library"/>
+        </node>
+    </node>
+    <node uin="N-t1cvjle1u7ebdw-psnlvo">
+        <property name="$metaclass" value="Subsystem"/>
+        <property name="$name" value="Award Miles"/>
+        <property name="@stereotype" value="system"/>
+    </node>
+    <node uin="N-t1cvjle1u7ebe6-ofjt5">
+        <property name="$metaclass" value="Subsystem"/>
+        <property name="$name" value="TransMaster"/>
+        <property name="@stereotype" value="system"/>
+    </node>
+    <node uin="N9zn4d9e1u8qwlk-d0lblq">
+        <property name="$name" value="TransMasterXMLDAO"/>
+        <property name="$metaclass" value="Component"/>
+        <link uin="L-mjfarme1u8qwlk-qdnn3z">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="supports"/>
+            <participant referencedUin="design:node:::N9zn4d9e1u8qwlk-d0lblq" role="Client"/>
+            <participant referencedUin="design:node:::N-tkr3l3e1jsqo8v-bgxs0o" role="Supplier"/>
+        </link>
+        <link uin="L-mjfarme1u8qwlk56rz89">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="supports"/>
+            <participant referencedUin="design:node:::N9zn4d9e1u8qwlk-d0lblq" role="Client"/>
+            <participant referencedUin="design:node:::N-tkr3l3e15268yjiu9k7f" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5e1u8s4iq-6qgh6w">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="bind"/>
+            <participant referencedUin="design:node:::N9zn4d9e1u8qwlk-d0lblq" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u7ebe6-ofjt5" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N9zn4d9e1u8r35g-aa08ln">
+        <property name="$metaclass" value="Component"/>
+        <property name="$name" value="AwardsMilesXMLDAO"/>
+        <link uin="L-mjfarme1u8r35g-pa0tyb">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="supports"/>
+            <participant referencedUin="design:node:::N9zn4d9e1u8r35g-aa08ln" role="Client"/>
+            <participant referencedUin="design:node:::N-tkr3l3e1b088hf-e9m343" role="Supplier"/>
+        </link>
+        <link uin="L-mjfarme1u8r35g-3wgspg">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="supports"/>
+            <participant referencedUin="design:node:::N9zn4d9e1u8r35g-aa08ln" role="Client"/>
+            <participant referencedUin="design:node:::N-tkr3l3e13tfwl3-4tkoe8" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5e1u8ry7q-psdtmv">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="bind"/>
+            <participant referencedUin="design:node:::N9zn4d9e1u8r35g-aa08ln" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u7ebdw-psnlvo" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-t1cvjle1u917l6-bqo8rb">
+        <property name="$metaclass" value="Subsystem"/>
+        <property name="$name" value="Client"/>
+        <property name="@stereotype" value="tier"/>
+        <link uin="Lys2gw5e1xzkmal-6xrmgh">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="call"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u917l6-bqo8rb" role="Client"/>
+            <participant referencedUin="design:node:::N-tkr3l3e13st4wjt6y4vf" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5e1xzkq1sw97uxs">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="call"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u917l6-bqo8rb" role="Client"/>
+            <participant referencedUin="design:node:::N-tkr3l3e13vk2qlht17kl" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5e1xzkwku-yxm3u3">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="access"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u917l6-bqo8rb" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u5lrkycy26us" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5e20j14jvhu5hq6">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="call"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u917l6-bqo8rb" role="Client"/>
+            <participant referencedUin="design:node:::N-tkr3l3e13suix67qkwaj" role="Supplier"/>
+        </link>
+        <link uin="Lys2gw5e219b5aa-w0euz6">
+            <property name="$metaclass" value="Dependency Link"/>
+            <property name="@stereotype" value="call"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u917l6-bqo8rb" role="Client"/>
+            <participant referencedUin="design:node:::N-tkr3l3e13sy4fg-9p67s7" role="Supplier"/>
+        </link>
+        <node uin="N-t1cvjle226go59-vpo7ef">
+            <property name="$name" value="Swing Client"/>
+            <property name="$metaclass" value="Subsystem"/>
+        </node>
+        <node uin="N-t1cvjle226hcq5-exta64">
+            <property name="$name" value="Web Client"/>
+            <property name="$metaclass" value="Subsystem"/>
+        </node>
+    </node>
+    <node uin="N1g64ye1u9cfpb8vzp0p">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="title note"/>
+        <property name="$note_text" value="Title: FBN Component Diagram&#xA;Author: Rohit Sood&#xA;&#xA;Note: Only architecturally significant components are shown in the modules for brevity. Detailed components are presented in other diagrams."/>
+    </node>
+    <node uin="N1g64ye1u9d0bhkvr2p2">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note2"/>
+        <property name="$note_text" value="Screens:&#xA;&#xA;SignInScreen&#xA;CustomerRegistrationScreen&#xA;&#xA;SearchFlightsScreen&#xA;FlightSeatsScreen&#xA;&#xA;ItinerariesScreen&#xA;ItineraryDetailsScreen&#xA;ItineraryConfirmationScreen&#xA;&#xA;CreditCardsScreen&#xA;AwardMilesScreen&#xA;&#xA;PaymentScreen&#xA;PaymentConfirmationScreen"/>
+        <link uin="Lr7pm3we1u9du4z-utekzu">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye1u9d0bhkvr2p2" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u917l6-bqo8rb" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye1u9e3nygla6dk">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note3"/>
+        <property name="$note_text" value="Each of the clients have their own controller and business delegates. Each client type has the same dependencies as the other. Please note the dependency shown from the client-tier applies to both swing and web client. Independent dependencies were not shown to prevent the extra lines drawn between components."/>
+        <link uin="Lr7pm3we1u9escga871a1">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye1u9e3nygla6dk" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u917l6-bqo8rb" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye20jiwwh-ipo1jf">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note5"/>
+        <property name="$note_text" value="The TransMasterXMLDAO connects and makes a request to the TransMaster System via XML RPC, it then translates the XML response stream to a DataTransferObject response."/>
+        <link uin="Lr7pm3we20jl65igwyu1l">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye20jiwwh-ipo1jf" role="Client"/>
+            <participant referencedUin="design:node:::N9zn4d9e1u8qwlk-d0lblq" role="Supplier"/>
+        </link>
+        <link uin="Lr7pm3we23eumfh-by4ws6">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye20jiwwh-ipo1jf" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u7ebe6-ofjt5" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye20jmen9rhzo43">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note6"/>
+        <property name="$note_text" value="The PaymentHelper sends an asynchronous message onto the JMS Queue, which the PaymentListener picks up to process. "/>
+        <link uin="Lr7pm3we20jnfm25se126">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye20jmen9rhzo43" role="Client"/>
+            <participant referencedUin="design:node:::N9zn4d9e1u6g6ltiktun8:N-t1cvjle1jpm198-exzpih" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye20jpmit-opabz8">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note7"/>
+        <property name="$note_text" value="The Nucleus is the central module of the system which contains business neutral libraries &amp; utilities. It also houses the service locator and the client context.&#xA;"/>
+        <link uin="Lr7pm3we20jre8e8tnbt5">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye20jpmit-opabz8" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u5lrkycy26us" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye20low16-hi9i04">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note8"/>
+        <property name="$note_text" value="InventorySearchProcessor uses ValueListHandlers to throttle results returned to the client, also to possible page results in a future release. However, it directly uses SeatSearchDAO as it will always return finite results which are relatively small in size."/>
+        <link uin="Lr7pm3we2182ejusc3soy">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye20low16-hi9i04" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1jpof2y4l0g4c" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye20lqwm361uh60">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note9"/>
+        <property name="$note_text" value="Every module has atleast one logical entry point - the Facade. The Facades are implemented as remote Stateless Session Beans. The processors are the worker beans - they are implemented as local StatelessSessionBeans - they interact with Local EntityBeans."/>
+    </node>
+    <node uin="N1g64ye20lw4xuveufkw">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note10"/>
+        <property name="$note_text" value="The PaymentProcessor completes the payment transaction. It is responsible for interacting with the local entity EJBs for this."/>
+        <link uin="Lr7pm3we20m08hxvv11lr">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye20lw4xuveufkw" role="Client"/>
+            <participant referencedUin="design:node:::N9zn4d9e1jpncm6-n4kewl:N-t1cvjle1jpm198-exzpih" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64ye23euupewjr7r7">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note1"/>
+        <property name="$note_text" value="The AwardMilesXMLDAO makes an XML-RPC request to the Award Miles system and translates the XML-RPC response to a data transfer object."/>
+        <link uin="Lr7pm3we23ewrda7auh4m">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye23euupewjr7r7" role="Client"/>
+            <participant referencedUin="design:node:::N9zn4d9e1u8r35g-aa08ln" role="Supplier"/>
+        </link>
+        <link uin="Lr7pm3we23ewvgq-choti3">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64ye23euupewjr7r7" role="Client"/>
+            <participant referencedUin="design:node:::N-t1cvjle1u7ebdw-psnlvo" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>

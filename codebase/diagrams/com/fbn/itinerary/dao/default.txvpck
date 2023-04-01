@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxwcs4kzg0km4f">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;option.layout.recursive = false &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:node:::N1g64ydz4x2slvxnmsj6">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="640,490,270,90"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdz2pzb5k-xf3hmf">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="590,270,380,120"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::L5c53vwdz2qj6zym0l02s:N12t93sdz2pzb5k-xf3hmf">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="770,270"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="770,150"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdz2teufd716zhr">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="30,300,270,89"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::L8ah77adz2tfc0it7hnna:N12t93sdz2teufd716zhr">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="165,300"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="165,98"/>
+            </reference>
+            <reference referencedUin="design:link:::L-cqrrchdz2tjvlt-vgz1ma:N12t93sdz2teufd716zhr">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="300,344"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="590,344"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdz2q0buc-6jwa12">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="10,10,320,88"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:link:::L-cqrrchdz2tjrfbu07bmx:N12t93sdz2q0buc-6jwa12">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="330,54"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="590,54"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ydz4hdp5z-wvq2pm">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="310,430,220,80"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="design:node:::N1g64ydz45j28z6n903g">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="310,170,220,80"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdz2qikng-doqszh">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="590,10,360,140"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::L-cqrrchdz2tjrfbu07bmx:N12t93sdz2q0buc-6jwa12">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="438,40,45,11"/>
+        </reference>
+        <reference referencedUin="label:clientRole:design:link:::L-cqrrchdz2tjrfbu07bmx:N12t93sdz2q0buc-6jwa12">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="340,57,37,11"/>
+        </reference>
+        <reference referencedUin="label:clientRole:design:link:::L-cqrrchdz2tjvlt-vgz1ma:N12t93sdz2teufd716zhr">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="310,347,64,11"/>
+        </reference>
+        <reference referencedUin="label:label:design:link:::L-cqrrchdz2tjvlt-vgz1ma:N12t93sdz2teufd716zhr">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="423,330,45,11"/>
+        </reference>
+        <reference referencedUin="label:supplierRole:design:link:::L-cqrrchdz2tjrfbu07bmx:N12t93sdz2q0buc-6jwa12">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="557,57,23,11"/>
+        </reference>
+        <reference referencedUin="label:supplierRole:design:link:::L-cqrrchdz2tjvlt-vgz1ma:N12t93sdz2teufd716zhr">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="526,347,54,11"/>
+        </reference>
+    </view>
+    <node uin="N12t93sdz2pzb5k-xf3hmf">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchFlightsOracleDAO"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+        <property name="@mod__implements" value="SearchFlightsDAO"/>
+        <link uin="L5c53vwdz2qj6zym0l02s">
+            <property name="$metaclass" value="Implementation Link"/>
+            <property name="@mod__cachedBaseName" value="SearchFlightsDAO"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+            <participant referencedUin="design:node:::N12t93sdz2pzb5k-xf3hmf" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdz2qikng-doqszh" role="Supplier"/>
+        </link>
+        <node uin="N-ae2kl5dz4wm7mz-k525gu">
+            <property name="$name" value="searchDepartureFlights"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="java.util.List"/>
+            <node uin="L-b0f57fdz4x68h2-o3ts9p">
+                <property name="$name" value="searchCriteria"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__typeReferencedElement" value="design:node:::N12t93sdxnn32chwp00r5"/>
+                <property name="@mod__type" value="com.fbn.itinerary.dto.SearchCriteriaDTO"/>
+            </node>
+        </node>
+        <node uin="N-ae2kl5dz4wm7n9-zgiwni">
+            <property name="$name" value="searchAlternativeFlights"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="java.util.List"/>
+            <node uin="N-b0f57fdz4wm7n9-3dzln5">
+                <property name="$name" value="flightSearchcriteria"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__typeReferencedElement" value="design:node:::N12t93sdz4wjrjh-2fkng1"/>
+                <property name="@mod__type" value="com.fbn.itinerary.dto.FlightSearchCriteriaDTO"/>
+            </node>
+        </node>
+        <node uin="N-ae2kl5dz4x7au8mztzqj">
+            <property name="$name" value="searchArrivalFlights"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="java.util.List"/>
+            <node uin="N-b0f57fdz4x7au8-3mfz1l">
+                <property name="$name" value="searchCriteria"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__typeReferencedElement" value="design:node:::N12t93sdxnn32chwp00r5"/>
+                <property name="@mod__type" value="com.fbn.itinerary.dto.SearchCriteriaDTO"/>
+            </node>
+        </node>
+        <node uin="L-ae2kl5dz4ydn1w-gx2ye">
+            <property name="$name" value="Operation1"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@stereotype" value="constructor"/>
+        </node>
+    </node>
+    <node uin="N12t93sdz2q0buc-6jwa12">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchFlightsDAOFactory"/>
+        <property name="@mod__abstract" value=""/>
+        <property name="@mod_usage" value="design:node:::L-ae2kl5dz2qgoqaedwi2q:N12t93sdz2q0buc-6jwa12"/>
+        <property name="@mod_usage" value="design:node:::N12t93sdz2teufd716zhr"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+        <node uin="Lxcwgakdz2qf676vbk5n8">
+            <property name="$name" value="ORACLE"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+            <property name="@mod_Visibility" value="$public"/>
+        </node>
+        <node uin="L-ae2kl5dz2qg1sd-rtu6ea">
+            <property name="$name" value="getFlightSearchDAO"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnTypeReferencedElement" value="design:node:::N12t93sdz2qikng-doqszh"/>
+            <property name="@mod__returnType" value="SearchFlightsDAO"/>
+            <property name="@mod__abstract" value=""/>
+        </node>
+        <node uin="L-ae2kl5dz2qgoqaedwi2q">
+            <property name="$name" value="getFlightSearchFactory"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+            <property name="@mod__returnTypeReferencedElement" value="design:node:::N12t93sdz2q0buc-6jwa12"/>
+            <property name="@mod__returnType" value="SearchFlightsDAOFactory"/>
+            <node uin="L-b0f57fdz2qi4lo-mffk0p">
+                <property name="$name" value="factoryType"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__type" value="int"/>
+            </node>
+        </node>
+        <link uin="L-cqrrchdz2tjrfbu07bmx">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@directed" value=""/>
+            <property name="@supplierRole" value="dao"/>
+            <property name="@clientRole" value="factory"/>
+            <property name="@label" value="creates a"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+            <participant referencedUin="design:node:::N12t93sdz2q0buc-6jwa12" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdz2qikng-doqszh" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N12t93sdz2qikng-doqszh">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchFlightsDAO"/>
+        <property name="@mod__interface" value=""/>
+        <property name="@mod__abstract" value=""/>
+        <property name="@mod_usage" value="design:node:::N12t93sdz2pzb5k-xf3hmf"/>
+        <property name="@mod_usage" value="design:node:::L-ae2kl5dz2qg1sd-rtu6ea:N12t93sdz2q0buc-6jwa12"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+        <node uin="L-ae2kl5dz2qjem893lpml">
+            <property name="$name" value="searchAlternativeFlights"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="java.util.List"/>
+            <node uin="L-b0f57fdz4wkvtm-x8p1y0">
+                <property name="$name" value="flightSearchcriteria"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__typeReferencedElement" value="design:node:::N12t93sdz4wjrjh-2fkng1"/>
+                <property name="@mod__type" value="com.fbn.itinerary.dto.FlightSearchCriteriaDTO"/>
+            </node>
+        </node>
+        <node uin="N-ae2kl5dz4x7uol8ei1wz">
+            <property name="$name" value="searchArrivalFlights"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="java.util.List"/>
+            <node uin="N-b0f57fdz4x7uol-epk6ec">
+                <property name="$name" value="searchCriteria"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__typeReferencedElement" value="design:node:::N12t93sdxnn32chwp00r5"/>
+                <property name="@mod__type" value="com.fbn.itinerary.dto.SearchCriteriaDTO"/>
+            </node>
+        </node>
+        <node uin="N-ae2kl5dz4x7uovpwljrb">
+            <property name="$name" value="searchDepartureFlights"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="java.util.List"/>
+            <node uin="N-b0f57fdz4x7uovwx6k53">
+                <property name="$name" value="searchCriteria"/>
+                <property name="$metaclass" value="mod_shapeParameter"/>
+                <property name="@mod__typeReferencedElement" value="design:node:::N12t93sdxnn32chwp00r5"/>
+                <property name="@mod__type" value="com.fbn.itinerary.dto.SearchCriteriaDTO"/>
+            </node>
+        </node>
+    </node>
+    <node uin="N12t93sdz2teufd716zhr">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="SearchFlightsOracleDAOFactory"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+        <property name="@mod__extends" value="SearchFlightsDAOFactory"/>
+        <link uin="L8ah77adz2tfc0it7hnna">
+            <property name="$metaclass" value="Generalization Link"/>
+            <property name="@mod__cachedBaseName" value="SearchFlightsDAOFactory"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+            <participant referencedUin="design:node:::N12t93sdz2teufd716zhr" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdz2q0buc-6jwa12" role="Supplier"/>
+        </link>
+        <link uin="L-cqrrchdz2tjvlt-vgz1ma">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@clientRole" value="oracleFactory"/>
+            <property name="@directed" value=""/>
+            <property name="@supplierRole" value="oracleDAO"/>
+            <property name="@label" value="creates a"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+            <participant referencedUin="design:node:::N12t93sdz2teufd716zhr" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdz2pzb5k-xf3hmf" role="Supplier"/>
+        </link>
+        <node uin="N-ae2kl5dz4fwwrs-obt5eo">
+            <property name="$name" value="getFlightSearchDAO"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnTypeReferencedElement" value="design:node:::N12t93sdz2qikng-doqszh"/>
+            <property name="@mod__returnType" value="SearchFlightsDAO"/>
+        </node>
+    </node>
+    <node uin="N1g64ydz45j28z6n903g">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note1"/>
+        <property name="$note_text" value="The abstract factory pattern enables search on a different type of data resource."/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+    </node>
+    <node uin="N1g64ydz4hdp5z-wvq2pm">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note2"/>
+        <property name="$note_text" value="alternate search class will require a selected flight as the search criteria"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+    </node>
+    <node uin="N1g64ydz4x2slvxnmsj6">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note3"/>
+        <property name="$note_text" value="The searchFlights method plays a dual role - it can search for both Departures as well as Arrivals."/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcs4kzg0km4f"/>
+    </node>
+</nodeSet>

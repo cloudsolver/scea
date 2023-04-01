@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxdwciuv8qgt0b">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;option.layout.recursive = false &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:node:::N12t93sdxxj5rz0-wei79p">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="25,61,111,98"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdxw6urodr625q">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="329,52,111,93"/>
+            <reference referencedUin="design:link:::L-cqrrche1zekw72-j1alvl:N12t93sdxw6urodr625q">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="329,103"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="136,103"/>
+            </reference>
+        </reference>
+    </view>
+    <node uin="N12t93sdxw6urodr625q">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="Payment"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrh4pi-nswvcb"/>
+        <property name="Alias" value="Payment"/>
+        <node uin="L-ae2kl5dxxjbm60uax7nj">
+            <property name="$name" value="getPaymentDate"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="Date"/>
+        </node>
+        <node uin="L-ae2kl5e1z4llgx1qgsw7">
+            <property name="$name" value="setPrice"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <node uin="Lxcwgake1zbceiz9o7bi7">
+            <property name="$name" value="CREDIT_CARD"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+        </node>
+        <node uin="Lxcwgake1zbcy59tyfist">
+            <property name="$name" value="AWARD_MILES"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+            <property name="@mod_Visibility" value="$public"/>
+        </node>
+        <node uin="N-ae2kl5e1zbdzm5-k7zhqq">
+            <property name="$name" value="getPaymentType"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="Date"/>
+        </node>
+        <link uin="L-cqrrche1zekw72-j1alvl">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwciuv8qgt0b"/>
+            <property name="@supplierCardinality" value="1"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@clientRole" value="payment"/>
+            <property name="@supplierRole" value="price"/>
+            <property name="@directed" value=""/>
+            <property name="@label" value="paid at"/>
+            <participant referencedUin="design:node:::N12t93sdxw6urodr625q" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxxj5rz0-wei79p" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N12t93sdxxj5rz0-wei79p">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="Price"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdwciuv8qgt0b"/>
+        <property name="Alias" value="Price"/>
+        <node uin="N-ae2kl5dxxj6c5vguhpbp">
+            <property name="$name" value="getAmount"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="Double"/>
+        </node>
+        <node uin="N-ae2kl5dxxj66n9et1t70">
+            <property name="$name" value="getExpirationDate"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="Date"/>
+        </node>
+        <node uin="N-ae2kl5dxxj66n93jfj9j">
+            <property name="$name" value="getEffectiveDate"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="Date"/>
+        </node>
+        <node uin="N-ae2kl5e1zbmjips4cwmd">
+            <property name="$name" value="getPriceType"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="Double"/>
+        </node>
+    </node>
+</nodeSet>

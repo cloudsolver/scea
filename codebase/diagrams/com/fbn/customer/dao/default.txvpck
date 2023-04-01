@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxwcr9dp-75xinh">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="option.layout.recursive = false &#xA;"/>
+        <reference referencedUin="design:node:::N12t93sdxwdus92-agufbh">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="10,159,113,81"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdxwdum1f-ajlw4g">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="28,10,80,81"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdxwdvzbngy0lvq">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="143,10,118,70"/>
+        </reference>
+    </view>
+    <node uin="N12t93sdxwdum1f-ajlw4g">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="CustomerDAO"/>
+        <property name="@mod__interface" value=""/>
+        <property name="@mod__abstract" value=""/>
+        <property name="@mod_usage" value="design:node:::N12t93sdxwdus92-agufbh"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcr9dp-75xinh"/>
+    </node>
+    <node uin="N12t93sdxwdus92-agufbh">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="CustomerOracleDAO"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcr9dp-75xinh"/>
+        <property name="@mod__implements" value="CustomerDAO"/>
+        <link uin="L5c53vwdxwdvfno744rzc">
+            <property name="$metaclass" value="Implementation Link"/>
+            <property name="@mod__cachedBaseName" value="CustomerDAO"/>
+            <participant referencedUin="design:node:::N12t93sdxwdus92-agufbh" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxwdum1f-ajlw4g" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N12t93sdxwdvzbngy0lvq">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="CustomerDAOFactory"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxwcr9dp-75xinh"/>
+    </node>
+</nodeSet>

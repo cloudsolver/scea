@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Pay Itinerary</title>
+</head>
+<body>
+<h1 align="center" style="font-family: monospace;"><u>Pay Itinerary<br>
+</u></h1>
+<h2><span
+ style="font-weight: bold; text-decoration: underline; font-family: monospace;"><a
+ name="Contents"></a>Contents</span></h2>
+<ul style="font-family: monospace;">
+  <li><a href="#Overview">Overview<br>
+    </a></li>
+  <li><a href="#Assumptions">Assumptions</a></li>
+  <li><a href="#Design">Design
+Artifacts<br>
+    </a></li>
+</ul>
+<tt style="font-family: monospace;"><a href="index.html">FBN
+Home</a><font size="-1"><br>
+<br>
+</font>
+</tt>
+<h2><a name="Overview"></a><u style="font-family: monospace;">Overview:</u><br>
+</h2>
+<span style="font-family: monospace;">This use-case allows the customer
+or travel agent to select an
+itinerary and pay. Once the prices itinerary is displayed the customer
+can choose to pay with either a credit card of with the award travel
+miles.</span><br style="font-family: monospace;">
+<br style="font-family: monospace;">
+<span style="font-family: monospace;">The pay itinerary sequence is
+divided into 3 diagrams:</span><br style="font-family: monospace;">
+<br style="font-family: monospace;">
+<span style="font-weight: bold; font-family: monospace;">(A) Credit
+Cards</span><span style="font-family: monospace;"> - System displays
+the priced itinerary, customer
+selects pay with credit card, system returns the list of credit cards
+on file.</span><br style="font-family: monospace;">
+<span style="font-weight: bold; font-family: monospace;">(B) Transmaster</span><span
+ style="font-family: monospace;"> - Customer selects the credit card,
+system sends
+payment transaction to TransMaster for authorization, system sends
+confirmation if payment was successful (or failure notification if it
+failed).</span><span style="font-style: italic; font-family: monospace;"></span><br
+ style="font-family: monospace;">
+<span style="font-weight: bold; font-family: monospace;">(C) Travel
+Award </span><span style="font-family: monospace;">- Customer selects
+award travel, system
+verifices mileage availabilty, system sends confirmation if travel
+award payment was successful for the selected itinerary (or failure
+notification if it failed).</span><br style="font-family: monospace;">
+<br style="font-family: monospace;">
+<span style="font-style: italic; font-family: monospace;">(Note: the
+failure email alternate
+flow did not present itself to be significant enough to call for
+another sequence diagram. A failure notification can be sent just as a
+confirmation email is sent.)<br>
+<br>
+</span><font style="font-family: monospace;"><a href="#Contents">Back
+to Top</a></font><br style="font-family: monospace;">
+<tt style="font-family: monospace;"><u>
+</u></tt>
+<h2><u><a name="Assumptions"></a><span style="font-family: monospace;">Assumptions:</span></u></h2>
+<h3 style="font-family: monospace;">
+</h3>
+<ul style="font-family: monospace;">
+  <li>If the credit card is not
+authorized, no payment will be attempted.</li>
+  <li>If travel miles do not
+exist , no payment will be attempted.</li>
+  <li>If agent is making a
+booking on behalf of the customer , the email will
+go to both.</li>
+  <li>If the selected seats are
+no longer available, the transaction will fail.<br>
+  </li>
+</ul>
+<span style="font-family: monospace;"><br>
+<br>
+</span><tt style="font-family: monospace;"><a href="#Contents">Back
+to Top</a></tt>
+<h3 style="font-family: monospace;"><br>
+</h3>
+<h2 style="font-family: monospace;"><u><a name="Design"></a>Design
+Artifacts:</u></h2>
+<br style="font-family: monospace;">
+<span style="font-family: monospace;">Sequence Diagrams:</span><br
+ style="font-family: monospace;">
+<ul style="font-family: monospace;">
+  <li><a
+ href="images/sequence/Pay%20for%20Itinerary%20%28A%29%20-%20Credit%20Cards.gif">Pay
+for Itinerary (A)- Credit Cards</a></li>
+  <li><a
+ href="images/sequence/Pay%20for%20Itinerary%20%28B%29%20-%20Transmaster.gif">Pay
+for Itinerary (B) - TransMaster</a> </li>
+  <li><a
+ href="images/sequence/Pay%20for%20Itinerary%20%28C%29%20-%20Travel%20Award.gif">Pay
+for Itinerary (C) Travel Award</a></li>
+</ul>
+<span style="font-family: monospace;">Component Diagram:</span><br>
+<ul style="font-family: monospace;">
+  <li><a href="images/component/Payment.gif">Payment
+Sub-system component diagram</a></li>
+</ul>
+<tt style="font-family: monospace;"><br>
+<a href="#Contents">Back
+to Top</a></tt>
+</body>
+</html>

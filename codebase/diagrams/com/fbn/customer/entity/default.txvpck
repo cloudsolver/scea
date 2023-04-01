@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxdrbzfxmvcu4f">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;option.layout.recursive = false &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:node:::N12t93sdxdrc8gu-vw53mw">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="50,251,112,87"/>
+            <reference referencedUin="design:link:::L-cqrrchdxku98n8-b7b3fy:N12t93sdxdrc8gu-vw53mw"/>
+            <reference referencedUin="design:link:::L-cqrrche1z4nwii-34jntz:N12t93sdxdrc8gu-vw53mw">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="162,251"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="341,71"/>
+            </reference>
+            <reference referencedUin="design:link:::L-cqrrche1z4p3jyj4i65z:N12t93sdxdrc8gu-vw53mw">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="162,251"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="162,84"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93se1z4mnb68wiobt">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="638,281,160,93"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93se1jpc6th384kb5">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="43,31,100,109"/>
+            <reference referencedUin="design:link:::L-cqrrche1yaeon5m95ozg:N12t93se1jpc6th384kb5">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="96,140"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="133,251"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93se1jpc6rt-kc9okg">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="589,45,90,76"/>
+            <reference referencedUin="design:link:::L-cqrrche1ya9zxp-mi336x:N12t93se1jpc6rt-kc9okg">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="589,83"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="143,83"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93se1z7xe1w-wsgrqh">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="162,103,80,98"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93se1z7xjgc-j02mq9">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="162,2,117,82"/>
+            <reference referencedUin="design:link:::L-cqrrche1z7xjgciuta1f:N12t93se1z7xjgc-j02mq9">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="202,84"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="202,103"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93se1z7xh92-fzh79p">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="317,1,125,70"/>
+            <reference referencedUin="design:link:::L-cqrrche1z7xh92-wjkvtc:N12t93se1z7xh92-fzh79p">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="420,71"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="664,281"/>
+            </reference>
+        </reference>
+        <reference referencedUin="label:clientCardinality:design:link:::L-cqrrche1ya9zxp-mi336x:N12t93se1jpc6rt-kc9okg">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="566,69,13,11"/>
+        </reference>
+        <reference referencedUin="label:clientRole:design:link:::L-cqrrche1z4nwii-34jntz:N12t93sdxdrc8gu-vw53mw">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="200,215,45,11"/>
+        </reference>
+        <reference referencedUin="label:supplierRole:design:link:::L-cqrrche1ya9zxp-mi336x:N12t93se1jpc6rt-kc9okg">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="283,86,33,11"/>
+        </reference>
+        <reference referencedUin="label:supplierRole:design:link:::L-cqrrche1z4nwii-34jntz:N12t93sdxdrc8gu-vw53mw">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="341,74,39,11"/>
+        </reference>
+        <reference referencedUin="label:supplierCardinality:design:link:::L-cqrrche1ya9zxp-mi336x:N12t93se1jpc6rt-kc9okg">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="283,69,25,11"/>
+        </reference>
+        <reference referencedUin="label:clientCardinality:design:link:::L-cqrrche1yaeon5m95ozg:N12t93se1jpc6th384kb5">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="108,159,13,11"/>
+        </reference>
+        <reference referencedUin="label:supplierCardinality:design:link:::L-cqrrche1yaeon5m95ozg:N12t93se1jpc6th384kb5">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="126,212,13,11"/>
+        </reference>
+        <reference referencedUin="label:supplierRole:design:link:::L-cqrrche1yaeon5m95ozg:N12t93se1jpc6th384kb5">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="72,212,45,11"/>
+        </reference>
+        <reference referencedUin="label:clientRole:design:link:::L-cqrrche1ya9zxp-mi336x:N12t93se1jpc6rt-kc9okg">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="554,86,25,11"/>
+        </reference>
+        <reference referencedUin="label:clientRole:design:link:::L-cqrrche1yaeon5m95ozg:N12t93se1jpc6th384kb5">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="66,159,33,11"/>
+        </reference>
+        <reference referencedUin="label:supplierCardinality:design:link:::L-cqrrche1z4nwii-34jntz:N12t93sdxdrc8gu-vw53mw">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="311,74,13,11"/>
+        </reference>
+        <reference referencedUin="label:clientCardinality:design:link:::L-cqrrche1z4nwii-34jntz:N12t93sdxdrc8gu-vw53mw">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="170,215,13,11"/>
+        </reference>
+    </view>
+    <node uin="N12t93sdxdrc8gu-vw53mw">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="Customer"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+        <property name="@mod_usage" value="design:node:::L-b0f57fdy647jo1kbqj6d:L-ae2kl5dy644whgn9txqc:N12t93sdy64197h-slgtjl"/>
+        <property name="Alias" value="Customer"/>
+        <link uin="L-cqrrchdxev5jtpjza2pa">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@supplierCardinality" value="0..*"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierRole" value="payedItineraries"/>
+            <property name="@clientRole" value="customer"/>
+            <participant referencedUin="design:node:::N12t93sdxdrc8gu-vw53mw" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxdrg4bk-fto1a5" role="Supplier"/>
+        </link>
+        <link uin="L-cqrrchdxku98n8-b7b3fy">
+            <property name="@link" value="aggregationByValue"/>
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@supplierCardinality" value="1"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@directed" value=""/>
+            <property name="@clientRole" value="customer"/>
+            <property name="@supplierRole" value="milesAccount"/>
+            <participant referencedUin="design:node:::N12t93sdxdrc8gu-vw53mw" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxdvjlkhxjz6zb" role="Supplier"/>
+        </link>
+        <node uin="L-ae2kl5dxnj4ujo-yixrgp">
+            <property name="$name" value="getCustomerId"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="Integer"/>
+        </node>
+        <node uin="N-ae2kl5e1yacv9h-mkgt13">
+            <property name="$name" value="getItineraries"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="Set"/>
+        </node>
+        <node uin="N-ae2kl5e1yafvmd-kdv74w">
+            <property name="$name" value="getMilesAccountId"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <link uin="L-cqrrche1z4nwii-34jntz">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@clientRole" value="customer"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierRole" value="account"/>
+            <property name="@supplierCardinality" value="1"/>
+            <property name="@label" value="has a"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+            <participant referencedUin="design:node:::N12t93sdxdrc8gu-vw53mw" role="Client"/>
+            <participant referencedUin="design:node:::N12t93se1z7xh92-fzh79p" role="Supplier"/>
+        </link>
+        <link uin="L-cqrrche1z4p3jyj4i65z">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierCardinality" value="1"/>
+            <property name="@clientRole" value="customer"/>
+            <property name="@supplierRole" value="information"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+            <participant referencedUin="design:node:::N12t93sdxdrc8gu-vw53mw" role="Client"/>
+            <participant referencedUin="design:node:::N12t93se1z7xjgc-j02mq9" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N12t93se1jpc6rt-kc9okg">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="User"/>
+        <property name="@mod__abstract" value=""/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+        <property name="Alias" value="User"/>
+        <link uin="L-cqrrche1ya9zxp-mi336x">
+            <property name="@link" value="aggregation"/>
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@directed" value=""/>
+            <property name="@clientRole" value="user"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierRole" value="profile"/>
+            <property name="@supplierCardinality" value="1..*"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+            <participant referencedUin="design:node:::N12t93se1jpc6rt-kc9okg" role="Client"/>
+            <participant referencedUin="design:node:::N12t93se1jpc6th384kb5" role="Supplier"/>
+        </link>
+        <node uin="Lxcwgake1yabfn9-4eask1">
+            <property name="$name" value="username"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+        <node uin="Lxcwgake1yabyr78jxs6p">
+            <property name="$name" value="password"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+    </node>
+    <node uin="N12t93se1jpc6th384kb5">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="CustomerProfile"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+        <property name="@mod_usage" value="design:node:::L-ae2kl5dxnb29md-ct0d7v:N12t93sdxm3ozexgkwnom"/>
+        <property name="Alias" value="CustomerProfile"/>
+        <link uin="L-cqrrche1yaeon5m95ozg">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierCardinality" value="1"/>
+            <property name="@clientRole" value="profile"/>
+            <property name="@supplierRole" value="customer"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+            <participant referencedUin="design:node:::N12t93se1jpc6th384kb5" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxdrc8gu-vw53mw" role="Supplier"/>
+        </link>
+        <node uin="Lxcwgake1yag6d1-j5szkd">
+            <property name="$name" value="profileType"/>
+            <property name="$metaclass" value="Attribute"/>
+        </node>
+        <node uin="Lxcwgake1yagl2f-ewtc3l">
+            <property name="$name" value="profileName"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+        <node uin="Nxcwgake1z70srxbk70o0">
+            <property name="$name" value="ADMIN"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+        </node>
+        <node uin="Nxcwgake1yaly6nnyqefr">
+            <property name="$name" value="AGENT"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+        </node>
+        <node uin="Lxcwgake1yaldbk-koj1o0">
+            <property name="$name" value="CUSTOMER"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+        </node>
+    </node>
+    <node uin="N12t93se1z4mnb68wiobt">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="CreditCard"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+        <property name="Alias" value="CreditCard"/>
+        <node uin="N-ae2kl5e1z4mnb6-eis8qa">
+            <property name="$name" value="getType"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="Integer"/>
+        </node>
+        <node uin="Nxcwgake1z4mnb6-w301uz">
+            <property name="$name" value="MASTER_CARD_TYPE"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+            <property name="@mod__type" value="Integer"/>
+        </node>
+        <node uin="N-ae2kl5e1z4mnb66cj73u">
+            <property name="$name" value="getLastFourDigits"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+        <node uin="N-ae2kl5e1z4mnb6-u9qrkd">
+            <property name="$name" value="getExpirationDate"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="Date"/>
+        </node>
+        <node uin="Nxcwgake1z4mnb6-33qhfu">
+            <property name="$name" value="AMEX_CARD_TYPE"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+            <property name="@mod__type" value="Integer"/>
+        </node>
+    </node>
+    <node uin="N12t93se1z7xe1w-wsgrqh">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="Address"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+        <property name="Alias" value="Address"/>
+        <node uin="Nxcwgake1z7xe1w76xmjm">
+            <property name="$name" value="street"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+        <node uin="Nxcwgake1z7xe1w4f1qth">
+            <property name="$name" value="city"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+        <node uin="Nxcwgake1z7xe1wr0csx2">
+            <property name="$name" value="zip"/>
+            <property name="$metaclass" value="Attribute"/>
+        </node>
+        <node uin="Nxcwgake1z7xe1w-1wzq4p">
+            <property name="$name" value="state"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+    </node>
+    <node uin="N12t93se1z7xh92-fzh79p">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="CustomerAccount"/>
+        <property name="Alias" value="CustomerAccount"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+        <link uin="L-cqrrche1z7xh92-wjkvtc">
+            <property name="@link" value="aggregationByValue"/>
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@directed" value=""/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierCardinality" value="0..*"/>
+            <property name="@clientRole" value="customer"/>
+            <property name="@supplierRole" value="creditCards"/>
+            <property name="@label" value="owns"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+            <participant referencedUin="design:node:::N12t93se1z7xh92-fzh79p" role="Client"/>
+            <participant referencedUin="design:node:::N12t93se1z4mnb68wiobt" role="Supplier"/>
+        </link>
+        <node uin="N-ae2kl5e1z7xh92kw6pyb">
+            <property name="$name" value="getCreditCards"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="CreditCard"/>
+        </node>
+    </node>
+    <node uin="N12t93se1z7xjgc-j02mq9">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="CustomerInformation"/>
+        <property name="Alias" value="CustomerInformation"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+        <link uin="L-cqrrche1z7xjgciuta1f">
+            <property name="@link" value="aggregationByValue"/>
+            <property name="$metaclass" value="Association Link"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdrbzfxmvcu4f"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierCardinality" value="1"/>
+            <property name="@clientRole" value="customer"/>
+            <property name="@supplierRole" value="address"/>
+            <property name="@directed" value=""/>
+            <participant referencedUin="design:node:::N12t93se1z7xjgc-j02mq9" role="Client"/>
+            <participant referencedUin="design:node:::N12t93se1z7xe1w-wsgrqh" role="Supplier"/>
+        </link>
+        <node uin="Nxcwgake1z7xjgcmusme6">
+            <property name="$name" value="lastName"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+        <node uin="Nxcwgake1z7xjgccgi8d3">
+            <property name="$name" value="firstName"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod__type" value="String"/>
+        </node>
+        <node uin="N-ae2kl5e1z7xjgcrihik5">
+            <property name="$name" value="getEmail"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+        <node uin="N-ae2kl5e1z7xjgc-5s0j0l">
+            <property name="$name" value="getScreenName"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+    </node>
+</nodeSet>

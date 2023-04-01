@@ -1,0 +1,170 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>FBN Component(s)</title>
+</head>
+<body>
+<h1 align="center" style="font-family: courier new,courier,monospace;"><u><u>FBN
+Component Diagram(s)<br>
+</u></u></h1>
+<u style="font-weight: bold;"><tt><a name="Contents"></a>Contents</tt></u>
+<ul>
+  <li><a href="#Overview"><tt>Overview<br>
+    </tt></a></li>
+  <li><a href="#Design"><tt>Design Artifacts<br>
+    </tt></a></li>
+</ul>
+<tt><a href="index.html">FBN
+Home</a><font size="-1"><br>
+<br>
+</font></tt>
+<h3><tt><a name="Overview"></a><u>Overview:</u><br>
+</tt></h3>
+<span style="font-family: monospace;">To understand the
+system architecture a comprehensive </span><span
+ style="font-family: monospace;"><span style="font-family: monospace;">suite
+of </span></span><span style="font-family: monospace;">component
+diagrams are provided. One high-level component diagram which presents
+all the sub-systems are supported by four more detailed component
+diagrams which depict the J2EE patterns used and inter-component
+dependencies.</span><br>
+<br style="font-family: monospace;">
+<span style="font-weight: bold; font-family: monospace;">Use of
+Stereotypes:</span><br style="font-family: monospace;">
+<br style="font-family: monospace;">
+<span style="font-family: monospace;">In order to depict the design
+pattern and technology choices made stereotypes
+were heavily used in the component diagrams. No meta-model was created
+- pattern-based stereo types were used along with standard stereotypes
+for effective design
+communication:</span><br>
+<ul>
+  <li><span style="font-family: monospace;">&lt;&lt;StatelessSessionBean&gt;&gt;
+- stereotype representing the J2EE stateless session Enterprise
+JavaBean which communicates over
+RMI.</span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;StatefulSessionBean&gt;&gt;
+- </span><span style="font-family: monospace;"><span
+ style="font-family: monospace;">stereotype representing the J2EE </span></span><span
+ style="font-family: monospace;">stateful session Enterprise JavaBean
+which communicates over
+RMI.</span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;LocalStatelessSessionBean&gt;&gt;
+- </span><span style="font-family: monospace;"><span
+ style="font-family: monospace;">stereotype representing the J2EE </span></span><span
+ style="font-family: monospace;"> local stateless session Enterprise
+JavaBean.<br>
+    </span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;LocalEntityBean&gt;&gt;
+- </span><span style="font-family: monospace;"><span
+ style="font-family: monospace;">stereotype representing the J2EE </span></span><span
+ style="font-family: monospace;"> local entity Enterprise JavaBean
+which uses container managed
+persistence and relationships.</span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;MessageDrivenBean&gt;&gt;
+- </span><span style="font-family: monospace;"><span
+ style="font-family: monospace;">stereotype representing the J2EE </span></span><span
+ style="font-family: monospace;"> message driven Enterprise JavaBean
+which listens to the JMS queue
+for messages.</span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;ControllerServlet&gt;&gt;
+- </span><span style="font-family: monospace;"><span
+ style="font-family: monospace;">stereotype representing the J2EE </span></span><span
+ style="font-family: monospace;"> servlet implementation of the Front
+controller pattern.</span><br>
+    <span style="font-family: monospace;"></span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;Command&gt;&gt; - </span><span
+ style="font-family: monospace;"><span style="font-family: monospace;">stereotype
+representing a </span></span><span style="font-family: monospace;">Helper
+object designed based on the GoF command pattern.</span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;JSP&gt;&gt; - </span><span
+ style="font-family: monospace;"><span style="font-family: monospace;">stereotype
+representing the J2EE </span></span><span
+ style="font-family: monospace;">JavaServer Page.</span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;UI&gt;&gt; -
+stereotype attached to a component representing a user interface.<br>
+    </span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;DataTransferObject&gt;&gt;
+- </span><span style="font-family: monospace;"><span
+ style="font-family: monospace;">stereotype representing a </span></span><span
+ style="font-family: monospace;">data transfer object (based on the
+pattern with the same name).</span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;DataAccessObject&gt;&gt;
+- </span><span style="font-family: monospace;"><span
+ style="font-family: monospace;"></span><span
+ style="font-family: monospace;"><span style="font-family: monospace;">stereotype
+representing a </span></span><span style="font-family: monospace;"></span></span><span
+ style="font-family: monospace;">data access object (based on the
+pattern with the same name).</span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;ValueListHandler&gt;&gt;
+    </span><span style="font-family: monospace;"><span
+ style="font-family: monospace;"></span>- <span
+ style="font-family: monospace;"><span style="font-family: monospace;"></span><span
+ style="font-family: monospace;"><span style="font-family: monospace;">stereotype
+representing a </span></span>value list</span><span
+ style="font-family: monospace;"> object (based on the pattern with the
+same name).</span></span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;use&gt;&gt; -
+stereotype that signifies a usage dependency. <br>
+    </span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;call&gt;&gt; -
+stereotype attached to a dependency within which the source invokes the
+target operation.<br>
+    </span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;access&gt;&gt; -
+stereotype attached to a dependency to indicate that within the
+dependency the client package has the right to reference the contents
+of the supplier package.<br>
+    </span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;send&gt;&gt; -
+stereotype attached to a usage dependency within which the source
+component sends a signal to the target component.</span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;bind&gt;&gt; -
+stereotype attached to a dependency to signify a binding; where a
+binding is a dependency within which the source instantiates the target
+template to produce a new instance. Used primarily for services for </span><span
+ style="font-family: monospace;"><span style="font-family: monospace;">document
+    </span></span><span style="font-family: monospace;"> interchange.<br>
+    </span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;queue&gt;&gt; -
+stereotype attached to a component which is a logical queue supporting
+asynchronous guranteed delivery of messages.<br>
+    </span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;subsystem&gt;&gt; -
+stereotype attached to a package to signify that the package represents
+an independent part of the system being modelled.</span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;system&gt;&gt; -
+stereotype attached to a package to signify that the package represents
+a system independent to the system being modelled.<br>
+    </span></li>
+  <li><span style="font-family: monospace;">&lt;&lt;tier&gt;&gt; -
+stereotype attached to a package to signfy that the package represents
+a logical tier.<br>
+    </span></li>
+</ul>
+<br>
+<a href="#Contents" style="font-family: monospace;">Back
+to Top</a><br style="font-family: monospace;">
+<h3><tt><br>
+<u><a name="Design"></a>Design Artifacts:</u></tt></h3>
+<ul style="font-family: monospace;">
+  <li><a href="images/component/FBN%20Components.gif">Architectural
+Component Diagram</a> - The high-level component diagram of the entire
+system.</li>
+  <li><a href="images/component/Inventory.gif">Inventory
+Sub-system Component Diagram</a> - The Inventory subsytem.</li>
+  <li><a href="images/component/Itinerary.gif">Itinerary
+Sub-system Component Diagram</a> - The Itinerary subsystem.</li>
+  <li><a href="images/component/Payment.gif">Payment
+Sub-system Component Diagram</a> - The Payment subsystem.</li>
+  <li><a href="images/component/Customer.gif">Customer
+Sub-system Component Diagram</a> - The Customer subsystem.</li>
+  <li><a href="images/component/Pricing.gif">Pricing Sub-system
+Component Diagram</a> - The Pricing subsystem.<br>
+  </li>
+</ul>
+<br>
+<a style="font-family: monospace;" href="#Contents">Back to Top</a><br>
+<br>
+</body>
+</html>

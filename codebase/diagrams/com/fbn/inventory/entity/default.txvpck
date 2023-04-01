@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdxwczkjc-oh45wk">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="Class Diagram"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;toolbar.group.Tools.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;option.layout.recursive = false &#xA;option.justification = Top &#xA;option.layout.orthogonal.distance = 30 &#xA;option.layout.spring.repulstion = 3.0 &#xA;option.inheritance.together = VerticalDown &#xA;option.layout.tree.minHorizontalDistance = 60 &#xA;option.layout.tree.minVerticalDistance = 60 &#xA;option.layout.spring.movement = 10.5 &#xA;option.layout.selected_algorithm = sugiyama &#xA;option.inheritance = Vertical &#xA;option.layout.tree.justification = Top &#xA;option.layout.sugiyama.hybridProportionParameter = 0.7 &#xA;option.layout.tree.hierarchy = Vertical &#xA;option.layout.tree.reverse = false &#xA;option.justification.together = Top &#xA;option.layout.sugiyama.minHorizontalDistance = 90 &#xA;option.layout.orthogonal.nodePositioningStrategy = Smart &#xA;option.layout.tree.nontreeedge = false &#xA;option.layout.sugiyama.minVerticalDistance = 90 &#xA;option.layout.sugiyama.layerOrderingHeuristics = Barycenter &#xA;LayoutOptions_override = true &#xA;"/>
+        <reference referencedUin="design:node:::N12t93sdxxgok00bw6vwc">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="21,213,111,126"/>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdxxhsp1r-xieo7j">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="250,213,111,76"/>
+            <reference referencedUin="design:link:::L-cqrrchdxxhsp1r-wns0mx:N12t93sdxxhsp1r-xieo7j">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="281,213"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="213,107"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdxxhsp2b-r86tx4">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="250,435,103,76"/>
+            <reference referencedUin="design:link:::L-cqrrchdxxhsp2b-g7ya59:N12t93sdxxhsp2b-r86tx4">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="sourceAnchor" value="301,435"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="301,289"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N12t93sdxxgo772ukkyqo">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="135,20,103,87"/>
+            <reference referencedUin="design:link:::L-cqrrchdxxgo7729k12f:N12t93sdxxgo772ukkyqo">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="163,107"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="108,213"/>
+            </reference>
+        </reference>
+        <reference referencedUin="label:clientCardinality:design:link:::L-cqrrchdxxhsp2b-g7ya59:N12t93sdxxhsp2b-r86tx4">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="304,414,25,11"/>
+        </reference>
+        <reference referencedUin="label:supplierCardinality:design:link:::L-cqrrchdxxhsp1r-wns0mx:N12t93sdxxhsp1r-xieo7j">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="228,115,13,11"/>
+        </reference>
+        <reference referencedUin="label:supplierRole:design:link:::L-cqrrchdxxhsp1r-wns0mx:N12t93sdxxhsp1r-xieo7j">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="179,115,36,11"/>
+        </reference>
+        <reference referencedUin="label:supplierRole:design:link:::L-cqrrchdxxhsp2b-g7ya59:N12t93sdxxhsp2b-r86tx4">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="270,298,28,11"/>
+        </reference>
+        <reference referencedUin="label:clientRole:design:link:::L-cqrrchdxxhsp2b-g7ya59:N12t93sdxxhsp2b-r86tx4">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="255,414,43,11"/>
+        </reference>
+        <reference referencedUin="label:clientRole:design:link:::L-cqrrchdxxhsp1r-wns0mx:N12t93sdxxhsp1r-xieo7j">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="238,194,28,11"/>
+        </reference>
+        <reference referencedUin="label:supplierCardinality:design:link:::L-cqrrchdxxgo7729k12f:N12t93sdxxgo772ukkyqo">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="83,195,25,11"/>
+        </reference>
+        <reference referencedUin="label:supplierRole:design:link:::L-cqrrchdxxgo7729k12f:N12t93sdxxgo772ukkyqo">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="120,195,29,11"/>
+        </reference>
+        <reference referencedUin="label:clientRole:design:link:::L-cqrrchdxxgo7729k12f:N12t93sdxxgo772ukkyqo">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="151,131,36,11"/>
+        </reference>
+        <reference referencedUin="label:supplierCardinality:design:link:::L-cqrrchdxxhsp2b-g7ya59:N12t93sdxxhsp2b-r86tx4">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="304,298,13,11"/>
+        </reference>
+        <reference referencedUin="label:clientCardinality:design:link:::L-cqrrchdxxgo7729k12f:N12t93sdxxgo772ukkyqo">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="138,114,13,11"/>
+        </reference>
+        <reference referencedUin="label:clientCardinality:design:link:::L-cqrrchdxxhsp1r-wns0mx:N12t93sdxxhsp1r-xieo7j">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="279,194,13,11"/>
+        </reference>
+    </view>
+    <node uin="N12t93sdxxgo772ukkyqo">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="Equipment"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdref7r78z2tr"/>
+        <property name="Alias" value="Equipment"/>
+        <link uin="L-cqrrchdxxgo7729k12f">
+            <property name="@link" value="aggregationByValue"/>
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierCardinality" value="1..*"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdref7r78z2tr"/>
+            <property name="@directed" value=""/>
+            <property name="@clientRole" value="aircraft"/>
+            <property name="@supplierRole" value="seats"/>
+            <property name="@label" value="covers capacity with"/>
+            <participant referencedUin="design:node:::N12t93sdxxgo772ukkyqo" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxxgok00bw6vwc" role="Supplier"/>
+        </link>
+        <node uin="N-ae2kl5dxxgo772l6b74z">
+            <property name="$name" value="getModel"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+        <node uin="N-ae2kl5dxxgo772-i4ke10">
+            <property name="$name" value="getTailNumber"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+        <node uin="N-ae2kl5dxxgo7727yolp">
+            <property name="$name" value="getMake"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+    </node>
+    <node uin="N12t93sdxxgok00bw6vwc">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="Seat"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdref7r78z2tr"/>
+        <property name="Alias" value="Seat"/>
+        <node uin="N-ae2kl5dxxgok002ylvvs">
+            <property name="$name" value="getSeatNumber"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+        <node uin="N-ae2kl5dxxgok00-77rb8r">
+            <property name="$name" value="getSeatType"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+        <node uin="Nxcwgakdxxgok002x8547">
+            <property name="$name" value="COACH_CLASS"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+        </node>
+        <node uin="Nxcwgakdxxgok00-imtu1o">
+            <property name="$name" value="FIRST_CLASS"/>
+            <property name="$metaclass" value="Attribute"/>
+            <property name="@mod_Visibility" value="$public"/>
+            <property name="@mod__static" value=""/>
+            <property name="@mod__final" value=""/>
+        </node>
+        <node uin="N-ae2kl5dxxgok00-3xkeep">
+            <property name="$name" value="isReserved"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="boolean"/>
+        </node>
+        <node uin="N-ae2kl5dxxgok00-7bmr81">
+            <property name="$name" value="reserve"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <node uin="L-ae2kl5e1z9gnz2cjbc8h">
+            <property name="$name" value="isConfirmed"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+        <link uin="L-cqrrche1ze1q6wyh9kg0">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierCardinality" value="1"/>
+            <property name="@supplierRole" value="seatPrice"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdref7r78z2tr"/>
+            <property name="@directed" value=""/>
+            <property name="@clientRole" value="seat"/>
+            <property name="@label" value="priced at"/>
+            <participant referencedUin="design:node:::N12t93sdxxgok00bw6vwc" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxxj5rz0-wei79p" role="Supplier"/>
+        </link>
+        <link uin="L-cqrrche1zek9t6-chh5nu">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@directed" value=""/>
+            <property name="@clientRole" value="seat"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="@supplierRole" value="payment"/>
+            <property name="@supplierCardinality" value="1"/>
+            <property name="@label" value="paid through"/>
+            <participant referencedUin="design:node:::N12t93sdxxgok00bw6vwc" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxw6urodr625q" role="Supplier"/>
+        </link>
+        <node uin="L-ae2kl5e1zeoee9-aeal1r">
+            <property name="$name" value="isPaid"/>
+            <property name="$metaclass" value="Operation"/>
+        </node>
+    </node>
+    <node uin="N12t93sdxxhsp1r-xieo7j">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="Flight"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdref7r78z2tr"/>
+        <property name="Alias" value="Flight"/>
+        <link uin="L-cqrrchdxxhsp1r-wns0mx">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@directed" value=""/>
+            <property name="@supplierCardinality" value="1"/>
+            <property name="@clientCardinality" value="1"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdref7r78z2tr"/>
+            <property name="@supplierRole" value="aircraft"/>
+            <property name="@clientRole" value="flight"/>
+            <property name="@label" value="transports by"/>
+            <participant referencedUin="design:node:::N12t93sdxxhsp1r-xieo7j" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxxgo772ukkyqo" role="Supplier"/>
+        </link>
+        <node uin="N-ae2kl5dxxhsp1r-r2quno">
+            <property name="$name" value="getFlightNumber"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+        <node uin="N-ae2kl5dxxhsp1rdu5t19">
+            <property name="$name" value="getAirlineName"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="String"/>
+        </node>
+    </node>
+    <node uin="N12t93sdxxhsp2b-r86tx4">
+        <property name="$metaclass" value="Class"/>
+        <property name="$name" value="Schedule"/>
+        <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdref7r78z2tr"/>
+        <property name="Alias" value="Schedule"/>
+        <node uin="N-ae2kl5dxxhsp2bcyobbk">
+            <property name="$name" value="getDayOfWeek"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="int"/>
+        </node>
+        <node uin="N-ae2kl5dxxhsp2bjqvlin">
+            <property name="$name" value="getDepartureTime"/>
+            <property name="$metaclass" value="Operation"/>
+            <property name="@mod__returnType" value="int"/>
+        </node>
+        <link uin="L-cqrrchdxxhsp2b-g7ya59">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@supplierCardinality" value="1"/>
+            <property name="@clientCardinality" value="1..*"/>
+            <property name="diagram_uniqe_name" value="design:view:::Vuobnmjdxdref7r78z2tr"/>
+            <property name="@supplierRole" value="flight"/>
+            <property name="@clientRole" value="schedule"/>
+            <property name="@label" value="flies on"/>
+            <participant referencedUin="design:node:::N12t93sdxxhsp2b-r86tx4" role="Client"/>
+            <participant referencedUin="design:node:::N12t93sdxxhsp1r-xieo7j" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>
